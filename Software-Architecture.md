@@ -1,4 +1,4 @@
-
+![](https://user-images.githubusercontent.com/41677251/43193330-0df91334-9000-11e8-83e9-621514abfa70.PNG)
 The software is constitued of three main blocks:
 
 * _read_continuously.m:_ Matlab's automatically generated GUIDE file. Here, we deal with the user interface and saving the results files.
