@@ -7,4 +7,4 @@ We noticed that when recording on the internal drive, Windows periodically ran b
 ### Trigger lag
 
 We also noticed a variable lag between the trigger and the effective emission of the sound, this lag seems to be caused by the different elements of the transmission chain. We did not find any solution to this issue, apart from adding two other controls: the signal from the amplifier to the loudspeaker and a microphone in the experiment box. Both were connected to the Intan AnalogIn input.
-
+![](https://user-images.githubusercontent.com/41677251/43201292-5bb43cee-9018-11e8-9d3d-e95d521be59b.png)![](https://user-images.githubusercontent.com/41677251/43201293-5bcba0a0-9018-11e8-96cb-edef92f8c2a2.png)
