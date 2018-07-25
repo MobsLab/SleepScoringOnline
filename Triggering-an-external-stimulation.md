@@ -10,3 +10,5 @@ It is also possible to use the interface to stimulate during other events such a
 * 8 => NREM
 * 9 => REM
 * 10 => Wake
+
+From this, it is possible to code an arduino interface between the equipment to be triggered and the Intan.
