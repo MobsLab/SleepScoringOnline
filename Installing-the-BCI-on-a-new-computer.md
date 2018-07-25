@@ -1,4 +1,4 @@
-Mandatory software:
+## Mandatory software:
 
 * Matlab
 * RHD2000 Toolbox (http://intantech.com/RHD2000_matlab_toolbox.html)
@@ -10,13 +10,13 @@ Installation procedure:
 * Clone the BCI git repository
 * launch readcontinuously.m
 
-Troubleshooting:
+## Troubleshooting:
 
 * Check that the Intan USB licence key is plugged in.
 * Check that the Intan Board is connected to the computer
 * Check that the Intan RHD2000 toolbox is in the Matlab path
 
-In case of a "library not found" error, try installing the following compilers:
+### In case of a "library not found" error, try installing the following compilers:
 
 * Microsoft SDK
 * Visual Studio
