@@ -3,7 +3,8 @@
 * Matlab
 * RHD2000 Toolbox (http://intantech.com/RHD2000_matlab_toolbox.html)
 * RHD2000 Driver (http://intantech.com/downloads.html)
-Installation procedure:
+
+## Installation procedure:
 
 * Install the RHD2000 drivers
 * Install the RHD2000 Matlab toolbox
