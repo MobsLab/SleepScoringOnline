@@ -8,13 +8,15 @@ Filter each channel signal using a bandpass filter with the following frequencie
 * Theta: 5-10Hz
 * Delta: 2-5Hz
 
+These filters are from Matlab's designfilt function, which outputs a FIR filter with the required parameters. We decided to use the maximum order permitted by the size of the signal we were filtering (1/3 of the number of points). The signal length being 1000 points, we settled for an order of 332, which gives satisfactory results.
+
 ### Hilbert transform:
 
 Compute the Hilbert transform of the signal and then its modulus which corresponds to the enveloppe of the signal.
 
 ### Signal power:
 
-To get the power for each band, we compute the mean value of the enveloppe.
+To get the power for each band, we compute the mean value of the enveloppe. We then compute the ratio between the theta power and delta power. To avoid divergences, we use a minimal value threshold for the delta signal, which we empirically set at 0.1.
 
 ## Delta detection
 
