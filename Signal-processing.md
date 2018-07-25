@@ -18,7 +18,9 @@ To get the power for each band, we compute the mean value of the enveloppe.
 
 ## Delta detection
 
-### Signal Substraction 
+### Signal Substraction:
+
+To avoid false positives, the Delta detection process is conducted on the signal resulting from the difference between the deep PFC and superficial PFC signals.
 
 ### Filtering:
 
