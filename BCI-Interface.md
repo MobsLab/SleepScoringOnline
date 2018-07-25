@@ -11,3 +11,7 @@ The phase space displays points corresponding to the last two hours and the traj
 The distribution of the gamma power and the theta/delta ratio are plotted on each side. The theta/delta ratio distribution is plotted for all the points (blue distribution) and only for the points below the gamma power threshold (red distribution), allowing for a more accurate setting of the gamma threshold value.
 After modifying the threshold, the user can recompute the hypnogram and the statistics by pressing the _recompute hypnogram_ button.
 It is also possible to visualize the transitions between the different sleep stages in a graph by pressing the _compute transitions_ button.
+
+## Miscelaneous
+If a webcam is connected to the computer, a preview is available to check the experimental conditions.
+It is possible to create a .evt file to open in neuroscope with events at the delta detections.
