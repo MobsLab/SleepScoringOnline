@@ -28,7 +28,7 @@ To avoid false positives, the Delta detection process is conducted on the signal
 
 ### Filtering:
 
-The signal is filtered using a lowpass filter, the cutoff frequency is set at 8Hz.
+The signal is filtered using a lowpass filter, the cutoff frequency is set at 8Hz. For this purpose, we use Matlab's butterworth filter at a lower order (between 4 and 8). This choice is motivated by the necessity to limit phase divergence on the edges of the signal. We noticed a strong delay between the raw and filtered signal with higher order filters or with lower cutoff frequencies. Matlab's designfilt FIR filter was also rejected because of these issues. 
 
 ### Delta selection:
 
