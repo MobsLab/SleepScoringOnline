@@ -5,7 +5,7 @@ The software is constitued of three main blocks:
 
 * _boardUI.m: _The boardUI class deals with the communication with the Intan board and manages the board acquisition parameters.
 
-*_ boardPlot.m: _The boardPlot class displays the processed signals and the results of the sleep scoring process.
+* _boardPlot.m: _The boardPlot class displays the processed signals and the results of the sleep scoring process.
 
 Two other functions are responsible of the main tasks and called inside //boardPlot.m//:
 
