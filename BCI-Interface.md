@@ -2,3 +2,12 @@
 
 The interface is divided into two main panels: the left panel is focused on delta detection and sound stimulation and the right panel focused on sleep scoring.
 
+## Delta detection
+Delta detection is done using PFC deep and PFC sup signals, after substracting them, the user can apply a filter or detect on the unfiltered signal. Deltas are detected based on two criterion: crossing the threshold set by the user and remaining above the threshold for a duration between the minimum and the maximum duration set by the user.
+
+## Sleep scoring
+Sleep scoring is done using the channels set by the user in the parameters file. The user is given the choice of the thresholds.
+The phase space displays points corresponding to the last two hours and the trajectory of the last ten points.
+The distribution of the gamma power and the theta/delta ratio are plotted on each side. The theta/delta ratio distribution is plotted for all the points (blue distribution) and only for the points below the gamma power threshold (red distribution), allowing for a more accurate setting of the gamma threshold value.
+After modifying the threshold, the user can recompute the hypnogram and the statistics by pressing the _recompute hypnogram_ button.
+It is also possible to visualize the transitions between the different sleep stages in a graph by pressing the _compute transitions_ button.
