@@ -11,3 +11,7 @@ We also noticed a variable lag between the trigger and the effective emission of
 ![](https://user-images.githubusercontent.com/41677251/43201292-5bb43cee-9018-11e8-9d3d-e95d521be59b.png)![](https://user-images.githubusercontent.com/41677251/43201293-5bcba0a0-9018-11e8-96cb-edef92f8c2a2.png)
 
 These graphs give us a glimpse of the experimental lag between the trigger and the effective emission which was measured between 50 and 150 milliseconds.
+
+### Clock unsynchronization 
+
+We noticed that when using both Matlab's clock and the Intan timestamps, after some time the recordings start to unsynchronize. To answer this problem we decided to use the Intan board Timestamps exclusively, which also makes post processing easier. 
