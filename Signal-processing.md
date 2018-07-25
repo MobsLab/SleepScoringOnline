@@ -1,6 +1,6 @@
 ## Sleep Scoring
 
-###Bandpass filtering:
+### Bandpass filtering:
 
 Filter each channel signal using a bandpass filter with the following frequencies:
 
