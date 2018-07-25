@@ -28,4 +28,4 @@ The signal is filtered using a lowpass filter, the cutoff frequency is set at 8H
 
 ### Delta selection:
 
-A duration condition is applied to the delta signal: each delta must last between 50 and 150 milliseconds(these durations can be changed in the interface).
+A duration condition is applied to the delta signal: each delta must last between 50 and 150 milliseconds (these durations can be changed in the interface).
