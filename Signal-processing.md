@@ -1,6 +1,6 @@
-!! Sleep Scoring
+## Sleep Scoring
 
-!!! Bandpass filtering:
+###Bandpass filtering:
 
 Filter each channel signal using a bandpass filter with the following frequencies:
 
@@ -8,22 +8,22 @@ Filter each channel signal using a bandpass filter with the following frequencie
 * Theta: 5-10Hz
 * Delta: 2-5Hz
 
-!!! Hilbert transform:
+### Hilbert transform:
 
 Compute the Hilbert transform of the signal and then its modulus which corresponds to the enveloppe of the signal.
 
-!!! Signal power:
+### Signal power:
 
 To get the power for each band, we compute the mean value of the enveloppe.
 
-!! Delta detection
+## Delta detection
 
-!!! Signal Substraction 
+### Signal Substraction 
 
-!!! Filtering:
+### Filtering:
 
 The signal is filtered using a lowpass filter, the cutoff frequency is set at 8Hz.
 
-!!! Delta selection:
+### Delta selection:
 
 A duration condition is applied to the delta signal: each delta must last between 50 and 150 milliseconds(these durations can be changed in the interface).
