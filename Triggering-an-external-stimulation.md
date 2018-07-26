@@ -13,3 +13,4 @@ It is also possible to use the interface to stimulate during other events such a
 
 From this, it is possible to code an arduino interface between the equipment to be triggered and the Intan:
 ![](https://user-images.githubusercontent.com/41677251/43254358-82d299c4-90c7-11e8-8118-0aadf1c78002.PNG)
+Above is an example of how the BCI can be used with a custom arduino interface to trigger an optogenetic stimulation on a specific sleep stage.
