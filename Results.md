@@ -10,4 +10,4 @@ Sleep scoring results are stored in _sleepstage.mat_ which contains the _allresu
 6. **Theta/Delta:** Calculated on a three second window, used for sleep scoring.
 7. **Delta power:** Delta (2-5 Hz) power in the PFCdeep-PFCsup signal.
 8. **Number of delta detections in the last second:** Number of delta detected in the last second
-9. **Sleep stage**: 1=NREM, 2=REM, 3=Wake
+9. **Sleep stage**: Current sleep stage, 1=NREM, 2=REM, 3=Wake
