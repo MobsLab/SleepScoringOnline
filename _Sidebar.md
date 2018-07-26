@@ -1,4 +1,5 @@
 # Index
+### [Introduction](https://github.com/MobsLab/DeltaFeedBack/wiki/Introduction)
 ### [Presentation](https://github.com/MobsLab/DeltaFeedBack/wiki/Presentation)
 ### [Installation](https://github.com/MobsLab/DeltaFeedBack/wiki/Installing-the-BCI-on-a-new-computer)
 ## Functions
