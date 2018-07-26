@@ -4,7 +4,7 @@ The wiki is divided into two parts:
 * Technicalities: explanations about the technical choices made during the development of the interface and documentation for further improvement and modifications of the interface.
 
 # Index
-### [Introduction](https://github.com/MobsLab/DeltaFeedBack/wiki/Introduction)
+### [Home](https://github.com/MobsLab/DeltaFeedBack/wiki/Home)
 ### [Presentation](https://github.com/MobsLab/DeltaFeedBack/wiki/Presentation)
 ### [Installation](https://github.com/MobsLab/DeltaFeedBack/wiki/Installing-the-BCI-on-a-new-computer)
 ## Functions
