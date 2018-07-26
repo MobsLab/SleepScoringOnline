@@ -1,5 +1,5 @@
 ## Mandatory software:
-
+The BCI must be installed on a Windows operating computer, as the Intan RHD2000 Matlab toolbox is not available on Linux and Mac.
 * Matlab
 * RHD2000 Toolbox (http://intantech.com/RHD2000_matlab_toolbox.html)
 * RHD2000 Driver (http://intantech.com/downloads.html)
