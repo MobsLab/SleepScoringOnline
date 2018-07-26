@@ -9,7 +9,7 @@
 * Install the RHD2000 drivers
 * Install the RHD2000 Matlab toolbox
 * Clone the BCI git repository
-* launch readcontinuously.m
+* launch _readcontinuously.m_
 
 ## Troubleshooting:
 
