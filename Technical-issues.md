@@ -15,3 +15,7 @@ These graphs give us a glimpse of the experimental lag between the trigger and t
 ## Clock unsynchronization 
 
 We noticed that when using both Matlab's clock and the Intan timestamps, after some time the recordings start to unsynchronize. To answer this problem we decided to use the Intan board Timestamps exclusively, which also makes post processing easier. 
+
+## Noisy signal
+
+If the noise in the signal is quite strong, and remains after grounding and checking the Faraday cage. It might be interesting to check the external hard disk docks, as we noticed that one of these docks was creating a strong background noise when placed in a close radius from the Intan board.
