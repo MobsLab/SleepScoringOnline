@@ -1,6 +1,7 @@
 ## File output
 
-The following results files are generated in _read_continuously.m_:
+Most of the results files are generated in _read_continuously.m, except for digitalout.dat which contains the real time hypnogram.
+
 ### Sleep scoring
 Sleep scoring results are stored in _sleepstage.mat_ which contains the _allresult_ matrix with the following columns:
 
