@@ -15,10 +15,17 @@ Sleep scoring results are stored in _sleepstage.mat_ which contains the _allresu
 ### Hypnogram
 Because the intan outputs the sleep stage in the digitalout 9 to 11 pins, an hypnogram traducing the results of the sleepscoring process is stored in _digitalout.dat_ . This can be used to evaluate the performance of the sleep scoring process during the night, without posterior adjustment of the thresholds. The hypnogram can be obtained with the following bit of code:
 `%% Load Online hypnogram
+
 fileinfo = dir('digitalout.dat');
+
 num_samples = fileinfo.bytes/2; % uint16 = 2 bytes
+
 fid = fopen('digitalout.dat', 'r');
+
 hypnogramOnline = fread(fid, num_samples, 'uint16')/256;
+
 hypnogramOnline=hypnogramOnline(1:20000:end);
+
 fclose(fid);
+
 hypnogramOnline(hypnogramOnline==4)=3;`
