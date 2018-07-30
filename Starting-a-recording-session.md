@@ -12,3 +12,7 @@
 2. Apply the threshold
 3. Connect to the arduino (COM + _OK_)
 4. _Arm for firing_
+
+## Ending
+**Make sure you press the stop button**
+If not, it is possible that the results matrices will not be saved.
