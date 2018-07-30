@@ -11,3 +11,6 @@ Sleep scoring results are stored in _sleepstage.mat_ which contains the _allresu
 7. **Delta power:** Delta (2-5 Hz) power in the PFCdeep-PFCsup signal.
 8. **Number of delta detections in the last second:** Number of delta detected in the last second
 9. **Sleep stage**: Current sleep stage, 1=NREM, 2=REM, 3=Wake
+
+### Hypnogram
+An hypnogram traducing the results of the sleepscoring process is stored in _digitalout.dat_ because the intan outputs the sleep stage in the digitalout 9 to 11 pins. This can be used to evaluate the performance of the sleep scoring process during the night, without posterior adjustment of the thresholds.
