@@ -14,6 +14,8 @@ The distribution of the gamma power and the theta/delta ratio are plotted on eac
 After modifying the threshold, the user can recompute the hypnogram and the statistics by pressing the _recompute hypnogram_ button.
 It is also possible to visualize the transitions between the different sleep stages in a graph by pressing the _compute transitions_ button.
 
+In the interface, the displayed hypnogram covers the last hour of recording. It is possible to navigate in the recording using the slider. Just under the hypnogram is displayed the delta density in a 4 seconds window.
+
 ## Miscelaneous
 If a webcam is connected to the computer, a preview is available to check the experimental conditions. A mask is applied to the webcam video feed to restrict it to the area of interest (ie. the cages), this mask can be adjusted in _boardUI.m_
 
