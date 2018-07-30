@@ -2,6 +2,7 @@
 ### [Home](https://github.com/MobsLab/DeltaFeedBack/wiki/Home)
 ### [Presentation](https://github.com/MobsLab/DeltaFeedBack/wiki/Presentation)
 ### [Installation](https://github.com/MobsLab/DeltaFeedBack/wiki/Installing-the-BCI-on-a-new-computer)
+### [Starting a recording session](https://github.com/MobsLab/DeltaFeedBack/wiki/Starting-a-recording-session)
 ## Functions
 ### [BCI Interface](https://github.com/MobsLab/DeltaFeedBack/wiki/BCI-Interface)
 ### [Simulation](https://github.com/MobsLab/DeltaFeedBack/wiki/Simulation)
