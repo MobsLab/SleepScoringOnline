@@ -16,4 +16,5 @@ It is also possible to visualize the transitions between the different sleep sta
 
 ## Miscelaneous
 If a webcam is connected to the computer, a preview is available to check the experimental conditions. A mask is applied to the webcam video feed to restrict it to the area of interest (ie. the cages), this mask can be adjusted in _boardUI.m_
+
 It is possible to create a .evt file to open in neuroscope with events at the delta detections.
