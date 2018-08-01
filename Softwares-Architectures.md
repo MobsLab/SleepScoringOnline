@@ -2,7 +2,9 @@
 ![](https://user-images.githubusercontent.com/41677251/43193330-0df91334-9000-11e8-83e9-621514abfa70.PNG)
 The software is constitued of three main blocks:
 
-* _read_continuously.m:_ Matlab's automatically generated GUIDE file. Here, we deal with the user interface and saving the results files.
+* _read_continuously.m:_ Matlab's automatically generated GUIDE file. Here, we deal with the user interface and saving the results files. This is the function where all the interface is defined and all the button functions are defined. To edit the interface, type _guide_ in Matlab's command prompt. Each button is associated with a _Callback_ function which will interact with Matlab variables.
+
+This is also the function where the results files are defined and prepared for saving, in the _stop_button_Callback_ function.
 
 * _boardUI.m:_ The boardUI class deals with the communication with the Intan board and manages the board acquisition parameters.
 
