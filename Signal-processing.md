@@ -33,4 +33,4 @@ The signal is filtered using a lowpass filter, the cutoff frequency is set at 8H
 
 ### Delta selection:
 
-A duration condition is applied to the delta signal: each delta must last between 50 and 150 milliseconds (these durations can be changed in the interface).
+A duration condition is applied to the delta signal: each delta must last between 50 and 150 milliseconds (these durations can be changed in the interface). To count Delta Waves durations, we chose to measure internal computer elapsed time between the start and the end of the Delta, with tic and toc Matlab functions. We found out that this solution offers more precision than a counter variable (Matlab timer object is nor perfectly periodic). 
