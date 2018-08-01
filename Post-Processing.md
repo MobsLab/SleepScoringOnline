@@ -1,3 +1,1 @@
-Ref Substraction 
-ND Manager 
-GetLFP 
+After the experiment, we use the function _processRawData.m_ to do the post-processing.
