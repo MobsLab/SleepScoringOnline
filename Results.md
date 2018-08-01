@@ -40,25 +40,25 @@ When Delta Waves detection is activated, two types of timestamps are saved: time
 2. Start of Delta Wave in 0.1 ms
 3. Delta Wave Duration in s
 4. Sound Mode
-5. Delta threshold for detection
+5. Delta threshold for detection in mV
 6. PFC deep prefactor
 7. PFC deep channel
 8. PFC sup prefactor
 9. PFC sup channel
 10. Filter Status (1 if activated, 0 otherwise)
-11. Cutoff Frequency
+11. Cutoff Frequency in Hz
 12. Filter Order
 
 * **_fires_matrix.mat_** contains the timestamps corresponding to all effective stimulations but contains also timestamps corresponding to stimulations that have been avoided because of the stimulation refractory time condition. This matrix is composed by 10 columns:
 1. Fires timestamps in 0.1 ms
 2. Sound mode
-3. Delta threshold for detection
+3. Delta threshold for detection in mV
 4. PFC deep prefactor
 5. PFC deep channel
 6. PFC sup prefactor
 7. PFC sup channel
 8. Filter Status (1 if activated, 0 otherwise)
-9. Cutoff Frequency
+9. Cutoff Frequency in Hz
 10. Filter Order
 
 * **_fires_actual_time.mat_** contains the timestamps in 0.1 ms corresponding to all effective stimulations, taking in account the refractory time between two stimulations. 
