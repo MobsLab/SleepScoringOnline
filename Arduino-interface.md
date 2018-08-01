@@ -11,10 +11,8 @@ After receiving a trigger, the arduino sends a ttl back to the Intan board's dig
 
 ## Code example
 
-void loop(){
-  // ---------------------------------------------------------------------------
+'void loop(){
   // receive MATLAB information, send tone trigger to TDT, and TTL to Intan Device
-  // ---------------------------------------------------------------------------
   if (Serial.available() >0){
     order=Serial.read();
     if(order>=00 && order<70){
@@ -42,7 +40,7 @@ void loop(){
       digitalWrite(28,HIGH);
     }
     
-    'if (order==1){
+    if (order==1){
     
     digitalWrite(27,HIGH);    //Intan event      
     delay(10);
