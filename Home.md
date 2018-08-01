@@ -1,5 +1,5 @@
 In this wiki, we aim to provide instructions and technical help to the user of the BCI developed by Adrien Bertolo and Baptiste Jouk.
-The wiki is divided into two parts. The second part 
+The wiki is divided into two parts.
 
 * Functions: The first part gives an overview of all different features, to allow any new operator to get started rapidly. You will find functional knowledge, 'How-to' and practical instructions about the BCI itself. You will also find informations about peripheral programs, from processing to post-processing functions, such as another user interface which simulates live acquisition. We also developed functions to compare online and offline Sleep-Scoring, or online and offline Delta-Detection. We tried to write them in a way that they can easily interact with files in the processed data folder.
  
