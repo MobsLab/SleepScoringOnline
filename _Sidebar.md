@@ -9,7 +9,7 @@
 ### [Post Processing](https://github.com/MobsLab/DeltaFeedBack/wiki/Post-processing)
 ### [Mouse parameters](https://github.com/MobsLab/DeltaFeedBack/wiki/Mouse-parameters)
 ### [Online Simulation Interface](https://github.com/MobsLab/DeltaFeedBack/wiki/Online-Simulation-Interface)
-### [Online/Offline Comparison]
+### [Online/Offline Comparison](https://github.com/MobsLab/DeltaFeedBack/wiki/Online-Offline-Comparison)
 ## Technicalities
 ### [Software Architecture](https://github.com/MobsLab/DeltaFeedBack/wiki/Software-Architecture)
 ### [Signal processing](https://github.com/MobsLab/DeltaFeedBack/wiki/Signal-processing)
