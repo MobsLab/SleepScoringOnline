@@ -33,15 +33,6 @@ After receiving a trigger, the arduino sends a ttl back to the Intan board's dig
       digitalWrite(24,LOW);
       digitalWrite(28,HIGH);
     }
-    if (sound==2) {
-      digitalWrite(24,HIGH);
-      digitalWrite(28,LOW);
-    }
-     if (sound==3) {
-      digitalWrite(24,HIGH);
-      digitalWrite(28,HIGH);
-    }
-    
     if (order==1){
     
     digitalWrite(27,HIGH);    //Intan event      
