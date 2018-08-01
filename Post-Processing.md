@@ -15,3 +15,7 @@ Results matrix form Sleep-Scoring and Delta Detections are moved in "DeltaDetect
 _digitalin.dat_; _digitalout.dat_, _analogin.dat_ and _sleepstage.mat_ are stored in "Processed" folder. 
 
 Finally, the _.xml_ file is moved from "PostProcessing" folder to the "Processed" folder. 
+
+* _ndm_lfp_ command is then called from matlab 
+
+* "ChannelsToAnalyse" and "LFPData" folders are then created. _LFP.mat_ files are then generated with _GetLFP.m_ function. 
