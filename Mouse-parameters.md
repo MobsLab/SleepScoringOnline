@@ -2,11 +2,10 @@
 Each mouse parameters are saved in _.csv_ files. Each parameters file is named by the number of the mouse as follow: _number.csv_.
 
 ![](https://user-images.githubusercontent.com/41677251/43194171-0f018372-9002-11e8-92df-61645a3112da.PNG)
-
 This file contains the channel numbers and sleep-scoring thresholds. Each parameter is identified by its position in the csv table, it is consequently important to always keep the parameters in the same order. 
 **A template of this file is available, named _template.csv_.**
 
-It is loaded on the press of the "Load Channel Parameters" button in the matlab interface.It is also used for post-processing, for the online simulation UI or for offline/online comparison functions. The function _getParams_ is used to load each parameter in a structure named 'mouse'.
+It is loaded on the press of the "Load Channel Parameters" button in the matlab interface.It is also used for post-processing, for the online simulation UI or for offline/online comparison functions. The function _getParams.m_ is used to load each parameter in a structure named 'mouse'.
 
 `paramsArray=readtable(file,'Delimiter',';','Format','%s%f');
 mouse=struct;
