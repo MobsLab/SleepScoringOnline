@@ -8,7 +8,7 @@ The software is constitued of three main blocks:
 
 * _boardPlot.m:_ The boardPlot class displays the processed signals and the results of the sleep scoring process. All the processing is done inside this function. We store the signals prior to displaying and we process them prior to sending to the _sleepscoring_ and _deltadetection_ functions.
 
-Two other functions are responsible of the main tasks and called inside //boardPlot.m//:
+Two other functions are responsible of the main tasks and called inside _boardPlot.m_:
 
 * _sleepscoring.m:_ The sleep scoring signal processing function and sleep stage determination algorithm.
 
