@@ -1,9 +1,9 @@
 In this wiki, we aim to provide instructions and technical help to the user of the BCI developed by Adrien Bertolo and Baptiste Jouk.
 The wiki is divided into two parts.
 
-* Functions: The first part gives an overview of all different features, to allow any new operator to get started rapidly. You will find functional knowledge, 'How-to' and practical instructions about the BCI itself. You will also find information about peripheral programs, from processing to post-processing functions, such as another user interface which simulates live acquisition or other functions to compare online and offline Sleep-Scoring and Delta-Detection. We tried to write them in a way so that they can easily interact with files in the processed data folder.
+* **Functions:** The first part gives an overview of all different features, to allow any new operator to get started rapidly. You will find functional knowledge, 'How-to' and practical instructions about the BCI itself. You will also find information about peripheral programs, from processing to post-processing functions, such as another user interface which simulates live acquisition or other functions to compare online and offline Sleep-Scoring and Delta-Detection. We tried to write them in a way so that they can easily interact with files in the processed data folder.
  
-* Technicalities: This part contains more specific explanations about Matlab Intan acquisition, how signal processing, sleep scoring and delta waves detection are processed. We also mention technical choices made during the development of the interface and provide documentation for further improvement and modifications of the interface.
+* **Technicalities:** This part contains more specific explanations about Matlab Intan acquisition, how signal processing, sleep scoring and delta waves detection are processed. We also mention technical choices made during the development of the interface and provide documentation for further improvement and modifications of the interface.
 
 # Index
 ### [Home](https://github.com/MobsLab/DeltaFeedBack/wiki/Home)
