@@ -22,3 +22,6 @@ Once the Parameters File is loaded thanks to _getParams.m_ function, the rest of
 * _ndm_lfp_ command is then called from matlab 
 
 * "ChannelsToAnalyse" and "LFPData" folders are then created. _LFP.mat_ files are then generated with _GetLFP.m_ function. 
+
+Now, here is how processed files should be stored:
+![](https://user-images.githubusercontent.com/41677251/43531593-66ddc50c-95b0-11e8-85dd-f6f8a08b6265.png)
