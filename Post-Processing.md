@@ -1,4 +1,4 @@
-Here is what the saving path folder looks like just after the acquisition:
+Here is how the saving path folder looks like just after the acquisition:
 ![](https://user-images.githubusercontent.com/41677251/43531386-f0f92b60-95af-11e8-80c2-6cbd81d12b19.PNG)
 
 After the experiment, we use the function _processRawData.m_ to do the post-processing.
