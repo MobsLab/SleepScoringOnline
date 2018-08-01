@@ -23,4 +23,4 @@ This file is updated during the acquisition when the user changes the gamma and 
 ## Saving Neuroscope parameters
 In the "ParamsSouris" folder containing the parameters .csv files, it is also possible to save the neuroscope parameters files (_amplifier.xml_ and _amplifier.nrs_) inside the "Neuroscope" folder, in a folder named like the number of the mouse. This way, the neuroscope layout file will be copied into the current acquisition folder on the press of the "Open Neuroscope" button.
 
-![](https://user-images.githubusercontent.com/41677251/43527012-d75da816-95a5-11e8-94e4-7f8c98f1fd47.png)
+![](https://user-images.githubusercontent.com/41677251/43527271-7ae69ace-95a6-11e8-8c62-57767373f5e3.png)
