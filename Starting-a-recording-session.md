@@ -3,6 +3,7 @@
 2. Set you saving path by clicking on _Set base path_
 3. Ensure that the _Save_ checkbox is checked
 4. Start the recording by clicking on _Run_
+![](https://user-images.githubusercontent.com/41677251/43523994-5b4bb044-959e-11e8-9e17-a2a1f6f78724.png)
 ## Sleep scoring start
 1. Start the sleep scoring by clicking on _Ok_ below the Thresholds edit box.
 2. Adjust the thresholds
