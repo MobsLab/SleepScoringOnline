@@ -5,7 +5,15 @@ The interface is launched by running _read_continuously.m_ in Matlab, it is orga
 The interface is divided into two main panels: the left panel is focused on delta detection and sound stimulation and the right panel focused on sleep scoring.
 
 ## Delta detection
-Delta detection is done using PFC deep and PFC sup signals. After being substracted (PFC deep - PFC sup), the user can apply a filter on the resulting substracted signal or detect on the unfiltered signal. Deltas are detected based on two criterion: crossing the threshold set by the user and remaining above the threshold for a duration between the minimum and the maximum duration set by the user.
+The detection is performed by **_deltaDetection.m_** Matlab function.
+It is done using PFC deep and PFC sup signals. After being substracted (PFC deep - PFC sup), the user can apply a filter on the resulting substracted signal or detect on the unfiltered signal. Deltas are detected based on three criterions: 
+* crossing the threshold 
+* remaining above the threshold for a duration between the minimum and the maximum duration 
+* Respecting refractory time between 2 detections. 
+All these parameters can be set by the user on the Delta Detection panel. It is also possible to set multiplicative pre-factors for each PFC deep and PFC sup LFP signals. 
+Check Online Simulation page to see how to to compute optimal values for these parameters to enhance the detection precision. 
+Check Results page to see how detections results are saved. 
+
 
 ## Sleep scoring
 Sleep scoring is done using the channels set by the user in the parameters file. The user is given the choice of the thresholds.
