@@ -1,6 +1,9 @@
 In this wiki, we aim to provide instructions and technical help to the user of the BCI developed by Adrien Bertolo and Baptiste Jouk.
 The wiki is divided into two parts:
+
 * Functions: functional knowledge, How-to and practical instructions about the BCI itself and the peripheral programs from processing to post processing functions such as another interface which simulates live acquisition.
+We tried to develop all our functions in a way that they can easily interact with files in the processed data folder.
+ 
 * Technicalities: explanations about the technical choices made during the development of the interface and documentation for further improvement and modifications of the interface.
 
 # Index
