@@ -1,6 +1,6 @@
 # Index
 ### [Home](https://github.com/MobsLab/DeltaFeedBack/wiki/Home)
-### [Presentation](https://github.com/MobsLab/DeltaFeedBack/wiki/Presentation)
+### [Presentation of the BCI](https://github.com/MobsLab/DeltaFeedBack/wiki/Presentation)
 ### [Installation](https://github.com/MobsLab/DeltaFeedBack/wiki/Installing-the-BCI-on-a-new-computer)
 ### [Starting a recording session](https://github.com/MobsLab/DeltaFeedBack/wiki/Starting-a-recording-session)
 ## Functions
