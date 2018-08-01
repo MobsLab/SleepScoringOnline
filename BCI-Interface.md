@@ -1,6 +1,6 @@
 The interface is launched by running _read_continuously.m_ in Matlab, it is organised as displayed below:
 
-![](https://user-images.githubusercontent.com/41677251/43203555-dc8d7370-901e-11e8-85fc-231768b93895.PNG)
+![](https://user-images.githubusercontent.com/41677251/43532135-b2dd0f7a-95b1-11e8-91be-222eb78e68aa.PNG)
 
 The interface is divided into two main panels: the left panel is focused on delta detection and sound stimulation and the right panel focused on sleep scoring.
 
