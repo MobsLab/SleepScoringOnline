@@ -7,7 +7,7 @@
 ## Sleep scoring start
 1. Start the sleep scoring by clicking on _Ok_ below the Thresholds edit box.
 2. Adjust the thresholds
-
+![](https://user-images.githubusercontent.com/41677251/43524291-35a69466-959f-11e8-9724-eae50c48c6a6.png)
 ## Delta detection start
 1. Adjust delta detection values
 2. Apply the threshold
