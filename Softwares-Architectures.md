@@ -15,3 +15,5 @@ Two other functions are responsible of the main tasks and called inside //boardP
 * _deltaDetection.m:_ Delta wave detection algorithm and Arduino triggering.
 
 ## 2. Online Simulation Interface
+
+![](https://user-images.githubusercontent.com/41677251/43524149-cb569a02-959e-11e8-8704-a132ff567805.png)
