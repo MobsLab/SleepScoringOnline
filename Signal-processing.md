@@ -15,7 +15,7 @@ These filters are from Matlab's designfilt function, which outputs a FIR filter 
 
 ### Hilbert transform:
 
-Compute the Hilbert transform of the signal and then its modulus which corresponds to the enveloppe of the signal.
+Compute the Hilbert transform of the signal and then its modulus which corresponds to the enveloppe of the signal. Hilbert transform was chosen over Fourier Transform because of its robustness and its time efficiency. We found it smoother to filter the signal and compute its Hilbert transform than to compute a Fourier transform over the signal and select the power over the frequency band of interest.
 
 ### Signal power:
 
