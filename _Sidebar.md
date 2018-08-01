@@ -5,10 +5,11 @@
 ### [Starting a recording session](https://github.com/MobsLab/DeltaFeedBack/wiki/Starting-a-recording-session)
 ## Functions
 ### [BCI Interface](https://github.com/MobsLab/DeltaFeedBack/wiki/BCI-Interface)
-### [Post Processing](https://github.com/MobsLab/DeltaFeedBack/wiki/Post-processing)
-### [Online Simulation Interface](https://github.com/MobsLab/DeltaFeedBack/wiki/Online-Simulation-Interface)
-### [Mouse parameters](https://github.com/MobsLab/DeltaFeedBack/wiki/Mouse-parameters)
 ### [Results](https://github.com/MobsLab/DeltaFeedBack/wiki/Results)
+### [Post Processing](https://github.com/MobsLab/DeltaFeedBack/wiki/Post-processing)
+### [Mouse parameters](https://github.com/MobsLab/DeltaFeedBack/wiki/Mouse-parameters)
+### [Online Simulation Interface](https://github.com/MobsLab/DeltaFeedBack/wiki/Online-Simulation-Interface)
+### [Online/Offline Comparison]
 ## Technicalities
 ### [Software Architecture](https://github.com/MobsLab/DeltaFeedBack/wiki/Software-Architecture)
 ### [Signal processing](https://github.com/MobsLab/DeltaFeedBack/wiki/Signal-processing)
