@@ -7,8 +7,8 @@ The interface is divided into two main panels: the left panel is focused on delt
 ## Delta detection
 The detection is performed by **_deltaDetection.m_** Matlab function.
 It is done using PFC deep and PFC sup signals. After being substracted (PFC deep - PFC sup), the user can apply a filter on the resulting substracted signal or detect on the unfiltered signal. Deltas are detected based on three criterions: 
-* crossing the threshold 
-* remaining above the threshold for a duration between the minimum and the maximum duration 
+* Crossing the threshold 
+* Remaining above the threshold for a duration between the minimum and the maximum duration 
 * Respecting refractory time between 2 detections. 
 All these parameters can be set by the user on the Delta Detection panel. It is also possible to set multiplicative pre-factors for each PFC deep and PFC sup LFP signals. 
 Check Pre-Processing chapter in Online Simulation page to see how to to compute optimal values for these parameters to enhance the detection precision. (https://github.com/MobsLab/DeltaFeedBack/wiki/Online-Simulation-Interface).
