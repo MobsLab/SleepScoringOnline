@@ -16,8 +16,8 @@ mouse.Bulb=paramsArray{1,2};
 mouse.HPC=paramsArray{2,2};
 mouse.Ref=paramsArray{8,2};
 name1=strsplit(filename1,'.');
-mouse.Number=name1{1};```
-
+mouse.Number=name1{1};
+```
 This file is updated during the acquisition when the user changes the gamma and theta/delta thresholds.
 
 ## Saving Neuroscope parameters
