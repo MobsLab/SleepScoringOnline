@@ -6,7 +6,7 @@ In the graphical interface, the user can also chose a minimum refractory time be
 ![](https://user-images.githubusercontent.com/41677251/43264607-e529c966-90e6-11e8-8677-a5124c40a0b8.PNG)
 ## Triggering something else
 
-It is also possible to use the interface to stimulate during other events such as specific sleep stages. To do so, it is possible to either code an other arduino interface or use the Intan board 8-11 digitalOut pins that correspond to the current sleep stage:
+It is also possible to use the interface to stimulate during other events such as specific sleep stages. To do so, it is possible to either code an other arduino interface or use the Intan board 8-10 digitalOut pins that correspond to the current sleep stage:
 * 8 => NREM
 * 9 => REM
 * 10 => Wake
