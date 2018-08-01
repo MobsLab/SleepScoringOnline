@@ -22,6 +22,8 @@ Once the Parameters File is loaded thanks to _getParams.m_ function, the rest of
 
 * Creation of "ChannelsToAnalyse" and "LFPData" folders. _LFP.mat_ files are then generated with _GetLFP.m_ function. 
 
+**Attention: to convert LFP signals in mV, a multiplication by a factor of 0.195e-3 is necessary.** 
+
 Now, here is how processed files should be stored (do not pay attention to _onlinedetection.mat_ and _offlinedetection.mat_ files) :
 
 ![](https://user-images.githubusercontent.com/41677251/43531593-66ddc50c-95b0-11e8-85dd-f6f8a08b6265.png)
