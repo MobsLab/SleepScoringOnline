@@ -13,8 +13,8 @@ The wiki is divided into two parts.
 ## Functions
 ### [BCI Interface](https://github.com/MobsLab/DeltaFeedBack/wiki/BCI-Interface)
 ### [Results](https://github.com/MobsLab/DeltaFeedBack/wiki/Results)
-### [Post Processing](https://github.com/MobsLab/DeltaFeedBack/wiki/Post-processing)
 ### [Mouse parameters](https://github.com/MobsLab/DeltaFeedBack/wiki/Mouse-parameters)
+### [Post Processing](https://github.com/MobsLab/DeltaFeedBack/wiki/Post-processing)
 ### [Online Simulation Interface](https://github.com/MobsLab/DeltaFeedBack/wiki/Online-Simulation-Interface)
 ### [Online/Offline Comparison](https://github.com/MobsLab/DeltaFeedBack/wiki/Online-Offline-Comparison)
 ## Technicalities
