@@ -19,6 +19,6 @@ We noticed that when using both Matlab's clock and the Intan timestamps, after s
 ## Noisy signal
 
 If the noise in the signal is quite strong, you can check multiple things:  
-* grounding 
+* Grounding 
 * Faraday cage.
-* external hard disk docks, as we noticed that one of these docks was creating a strong background noise when placed in a close radius from the Intan board.
+* External hard disk docks, as we noticed that one of these docks was creating a strong background noise when placed in a close radius from the Intan board.
