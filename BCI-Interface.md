@@ -16,6 +16,8 @@ It is also possible to visualize the transitions between the different sleep sta
 
 In the interface, the displayed hypnogram covers the last hour of recording. It is possible to navigate in the recording using the slider. Just under the hypnogram is displayed the delta density in a 4 seconds window.
 
+After some time, when the mouse has gone trough the three different sleep stages, it is possible to fit a Gaussian Mixture model on the points. From this Gaussian Mixture model, we can get the posterior probability of the mouse being in each of the three sleep stages at any time.
+
 ## Miscelaneous
 If a webcam is connected to the computer, a preview is available to check the experimental conditions. A mask is applied to the webcam video feed to restrict it to the area of interest (ie. the cages), this mask can be adjusted in _boardUI.m_
 
