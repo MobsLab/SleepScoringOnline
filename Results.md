@@ -36,30 +36,30 @@ Because the intan outputs the sleep stage in the digitalout 8 to 10 pins, an hyp
 When Delta Waves detection is activated, two types of timestamps are saved: timestamps corresponding to the detection itself (beginning end ending of delta waves) and the timestames corresponding to fires (sound stimulation sent by the arduino). The lag between these two (the fire and the end of the detection) is approximately 40ms (see "Technical Issues" chapter for more information).
 
 * **_detections_matrix.mat_** contains the timestamps corresponding to the beginning and ending of each detected Delta Wave. This matrix is composed by 12 columns: 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
+1. End of Delta Wave
+2. Start of Delta Wave 
+3. Delta Wave Duration in s
+4. Sound Mode
+5. Delta threshold for detection
+6. PFC deep prefactor
+7. PFC deep channel
+8. PFC sup prefactor
+9. PFC sup channel
+10. Filter Status (1 if activated, 0 otherwise)
+11. Cutoff Frequency
+12. Filter Order
 
-* **_fires_matrix.mat_** contains the timestamps corresponding to all effective stimulations but also stimulations that have been avoided because of the stimulation refractory time condition. This matrix is composed by 10 columns:
-1. 
-2. 
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+* **_fires_matrix.mat_** contains the timestamps corresponding to all effective stimulations but contains also timestamps corresponding to stimulations that have been avoided because of the stimulation refractory time condition. This matrix is composed by 10 columns:
+1. Fires timestamps 
+2. Sound mode
+3. Delta threshold for detection
+4. PFC deep prefactor
+5. PFC deep channel
+6. PFC sup prefactor
+7. PFC sup channel
+8. Filter Status (1 if activated, 0 otherwise)
+9. Cutoff Frequency
+10. Filter Order
 
 * **_fires_actual_time.mat_** contains the timestamps corresponding to all effective stimulations, taking in account the refractory time between two stimulations. 
 
