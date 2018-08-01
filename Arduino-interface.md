@@ -10,6 +10,7 @@ To trigger the arduino, we send over the serial link a binary file using _fwrite
 After receiving a trigger, the arduino sends a ttl back to the Intan board's digital out allowing to measure the effective stimulation time, which is processed into _fires_actual_times.mat_. The arduino board also triggers the TDT amplifier to generate the stimulation. 
 
 ## Code example
+
   //--------------------------------------------------------------------------
   void loop(){
   // receive MATLAB information, send tone trigger to TDT, and TTL to Intan Device
