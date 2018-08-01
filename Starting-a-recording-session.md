@@ -9,7 +9,7 @@
 2. Adjust the thresholds
 ![](https://user-images.githubusercontent.com/41677251/43524291-35a69466-959f-11e8-9724-eae50c48c6a6.png)
 ## Delta detection start
-You have the possibility to detect Delta Waves analysing the low_pass filtered (PFCdeep-PFCsup) signal or the raw PFCdeep-PFCsup) signal, just by clicking _apply_ or by deactivating the filter with the checkbox. You can also change the order and the cutoff frequency of the low_pass filter.
+You have the possibility to detect Delta Waves analysing the low_pass filtered (PFCdeep-PFCsup) signal or the raw PFCdeep-PFCsup) signal, just with the checkbox. You can also change the order and the cutoff frequency of the low_pass filter clicking _apply_.
 ![](https://user-images.githubusercontent.com/41677251/43533325-d9d85f8c-95b4-11e8-8363-72b01986be9d.png) 
 
 1. Adjust delta detection values
