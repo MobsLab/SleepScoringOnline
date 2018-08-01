@@ -8,23 +8,17 @@ This file contains the channel numbers and sleep-scoring thresholds. Each parame
 
 It is loaded on the press of the "Load Channel Parameters" button in the matlab interface.It is also used for post-processing, for the online simulation UI or for offline/online comparison functions. The function _getParams_ is used to load each parameter in a structure named 'mouse'.
 
-`paramsArray=readtable(file,'Delimiter',';','Format','%s%f');
+paramsArray=readtable(file,'Delimiter',';','Format','%s%f');
 
 mouse=struct;
-
 mouse.PFCDeep=paramsArray{5,2};
-
 mouse.PFCSup=paramsArray{4,2};
-
 mouse.Bulb=paramsArray{1,2};
-
 mouse.HPC=paramsArray{2,2};
-
 mouse.Ref=paramsArray{8,2};
-
 name1=strsplit(filename1,'.');
 
-mouse.Number=name1{1};`
+mouse.Number=name1{1};
 
 This file is updated during the acquisition when the user changes the gamma and theta/delta thresholds.
 
