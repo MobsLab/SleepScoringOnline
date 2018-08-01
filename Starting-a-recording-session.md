@@ -13,6 +13,7 @@
 2. Apply the threshold
 3. Connect to the arduino (COM + _OK_)
 4. _Arm for firing_
+
 ![](https://user-images.githubusercontent.com/41677251/43524817-7df11e2a-95a0-11e8-9bba-9e62e72f3dcf.png)
 ## Ending
 **Make sure you press the stop button**
