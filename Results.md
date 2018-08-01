@@ -31,3 +31,5 @@ Because the intan outputs the sleep stage in the digitalout 8 to 10 pins, an hyp
 `fclose(fid);`
 
 `hypnogramOnline(hypnogramOnline==4)=3;`
+
+### Fires and Detection matrix
