@@ -33,3 +33,4 @@ Because the intan outputs the sleep stage in the digitalout 8 to 10 pins, an hyp
 `hypnogramOnline(hypnogramOnline==4)=3;`
 
 ### Fires and Detection matrix
+When Delta Waves detection is activated, two types of timestamps are saved: timestamps corresponding to the detection itself and the timestames corresponding to fires (sound stimulation sent by the arduino). The lag between these two is approximately 40ms (see technical issues chapter for more informations).
