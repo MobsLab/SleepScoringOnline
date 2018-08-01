@@ -1,5 +1,5 @@
 ## Data acquisition
-The data is sent to Matlab by the Intan board by dataBlocks of 60 points, we then average each channel in Matlab. The signal is consequently subsampled from 20.000Hz  to 333,33Hz. The raw, un-subsampled signal is still saved in the selected acquisition directory.
+The data is sent to Matlab by the Intan board by dataBlocks of 60 points, we then average each channel in Matlab. The signal is consequently subsampled from 20.000Hz  to 333,33Hz. The raw, un-subsampled signal is still saved in the selected acquisition directory chosen by the user.
 ## Sleep Scoring
 ### Time window
 The theta, delta and gamma powers are updated every second, they are calculated on the last three seconds.
