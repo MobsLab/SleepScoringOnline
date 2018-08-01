@@ -8,6 +8,7 @@ This file contains the channel numbers and sleep-scoring thresholds. Each parame
 
 It is loaded on the press of the "Load Channel Parameters" button in the matlab interface.It is also used for post-processing, for the online simulation UI or for offline/online comparison functions. The function _getParams.m_ is used to load each parameter in a structure named 'mouse'.
 
+_getParams.m_:
 ```paramsArray=readtable(file,'Delimiter',';','Format','%s%f');
 mouse=struct;
 mouse.PFCDeep=paramsArray{5,2};
