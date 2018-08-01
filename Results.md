@@ -35,7 +35,7 @@ Because the intan outputs the sleep stage in the digitalout 8 to 10 pins, an hyp
 ### Fires and Detection matrix
 When Delta Waves detection is activated, two types of timestamps are saved: timestamps corresponding to the detection itself (beginning end ending of delta waves) and the timestames corresponding to fires (sound stimulation sent by the arduino). The lag between these two (the fire and the end of the detection) is approximately 40ms (see "Technical Issues" chapter for more information).
 
-* _detections_matrix.mat_ contains the timestamps corresponding to the beginning and ending of each detected Delta Wave. This matrix is composed by 12 columns: 
+* **_detections_matrix.mat_** contains the timestamps corresponding to the beginning and ending of each detected Delta Wave. This matrix is composed by 12 columns: 
 1.
 2.
 3.
@@ -49,7 +49,7 @@ When Delta Waves detection is activated, two types of timestamps are saved: time
 11.
 12.
 
-* _fires_matrix.mat_ contains the timestamps corresponding to all effective stimulations but also stimulations that have been avoided because of the stimulation refractory time condition. This matrix is composed by 10 columns:
+* **_fires_matrix.mat_** contains the timestamps corresponding to all effective stimulations but also stimulations that have been avoided because of the stimulation refractory time condition. This matrix is composed by 10 columns:
 1. 
 2. 
 3.
@@ -61,7 +61,7 @@ When Delta Waves detection is activated, two types of timestamps are saved: time
 9.
 10.
 
-* _fires_actual_time.mat_ contains the timestamps corresponding to all effective stimulations, taking in account the refractory time between two stimulations. 
+* **_fires_actual_time.mat_** contains the timestamps corresponding to all effective stimulations, taking in account the refractory time between two stimulations. 
 
-* _digin.mat_ contains all the timestamps of the acquisition. 
+* **_digin.mat_** contains all the timestamps of the acquisition. 
 
