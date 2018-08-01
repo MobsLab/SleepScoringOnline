@@ -17,4 +17,4 @@ Two other functions are responsible of the main tasks and called inside //boardP
 ## 2. Online Simulation Interface
 
 ![](https://user-images.githubusercontent.com/41677251/43524149-cb569a02-959e-11e8-8704-a132ff567805.png)
-![](https://user-images.githubusercontent.com/41677251/43524217-f93bf520-959e-11e8-85a8-741b8fcd3e62.png)
+![](https://user-images.githubusercontent.com/41677251/43524489-bc1eb8f2-959f-11e8-8b52-90ca7a7f9a4c.png)
