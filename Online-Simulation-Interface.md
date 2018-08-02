@@ -12,8 +12,13 @@ The two first things to do are to Load Signals and do the Pre-Processing, with t
 ![](https://user-images.githubusercontent.com/41677251/43575823-138d32be-9648-11e8-85d9-c199b531ef01.png)
 
 * **Load Signals**
-When you click Load Button
+
+When you click Load Button, first select the acquisition directory containing LFP files you want to read:
+
 ![](https://user-images.githubusercontent.com/41677251/43585162-ae632b7e-9664-11e8-8442-23430e984fb2.png)
+
+Then, select the corresponding -.csv- parameters file:
+
 ![](https://user-images.githubusercontent.com/41677251/43585227-e5b7fb54-9664-11e8-92e2-3ee5befecd7a.png)
 * **Pre-Processing**
 
