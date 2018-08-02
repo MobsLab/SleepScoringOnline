@@ -14,6 +14,7 @@ The two first things to do are to Load Signals and do the Pre-Processing, with t
 * **Load Signals**
 When you click Load Button
 ![](https://user-images.githubusercontent.com/41677251/43585162-ae632b7e-9664-11e8-8442-23430e984fb2.png)
+![](https://user-images.githubusercontent.com/41677251/43585227-e5b7fb54-9664-11e8-92e2-3ee5befecd7a.png)
 * **Pre-Processing**
 
 ## Functionalities
