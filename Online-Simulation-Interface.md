@@ -12,9 +12,9 @@ BlaBla
 ## 3. Functionalities
 
 BlaBla 
-* Lecture Controls Panel 
-* Sleep Scoring Panel
-* Delta Detection Panel 
+# * Lecture Controls Panel 
+# * Sleep Scoring Panel
+# * Delta Detection Panel 
 
 ## 4. Results
 
