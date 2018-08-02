@@ -13,9 +13,9 @@ Here is how the Interface looks like:
 
 ## Functionalities
 
-* Lecture Controls Panel 
-* Sleep Scoring Panel
-* Delta Detection Panel 
+* **Lecture Controls Panel** 
+* **Sleep Scoring Panel**
+* **Delta Detection Panel**
 
 ## Results
 
