@@ -16,7 +16,7 @@ Sleep scoring results are stored in **_sleepstage.mat_** which contains the _all
 9. **Sleep stage**: Current sleep stage, 1=NREM, 2=REM, 3=Wake
 
 ### Hypnogram
-Because the intan outputs the sleep stage in the digitalout 8 to 10 pins, an hypnogram traducing the results of the sleep scoring process is stored in **_digitalout.dat_** . This can be used to evaluate the performance of the sleep scoring process during the night, without posterior adjustment of the thresholds. The hypnogram can be obtained with the following bit of code:
+Because the intan outputs the sleep stage in the digitalout 8 to 10 pins, an hypnogram corresponding to the results of the sleep scoring process is stored in **_digitalout.dat_** . This can be used to evaluate the performance of the sleep scoring process during the night, without posterior adjustment of the thresholds. The hypnogram can be obtained with the following bit of code:
 
 `fileinfo = dir('digitalout.dat');`
 
