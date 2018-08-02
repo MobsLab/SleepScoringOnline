@@ -102,6 +102,8 @@ Filter order, cutoff frequency and duration conditions can also be selected on t
 
 ![](https://user-images.githubusercontent.com/41677251/43591456-af0ecc5e-9673-11e8-869f-53aa6c6528df.png)
 
+Here again, two display modes are possible in addition to the phase space: the first mode displays OB, HPC_theta and HPC_delta raw signals and filtered signals and the second mode displays the Hypnogram. 
+
 ## Results
 
 ## Faster Simulation without display   
