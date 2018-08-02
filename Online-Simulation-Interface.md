@@ -33,47 +33,47 @@ Gamma (OB), Theta and Delta (HPC) signals are filtered with _bandpass_ Matlab fi
 
 Then the function computes parameters that optimize Delta Detection: **multiplicative prefactors** for PFCdeep and PFCsup and **Delta Threshold**. To compute these parameters we only keep non noisy SWS Signals. Prefactors multiplication aims to make the PFC sup and PFC deep signals look similar when there is no Delta. PFC deep prefactor is set to 1 and sup prefactor is equal to the ratio of the PFC deep variance over PFC sup variance. Delta threshold equals two times the std of filtered difference (PFC deep - PFC deep). Here is the code :
 
-`%Prefactors 
-waitbar(0.5,f,'Determining Prefacors ...');
-load(strcat(Signals.dname,'/Processed/SleepScoring_OBGamma.mat'),'SWSEpoch','TotalNoiseEpoch','Epoch');       
+``%Prefactors `
+`waitbar(0.5,f,'Determining Prefacors ...');`
+`load(strcat(Signals.dname,'/Processed/SleepScoring_OBGamma.mat'),'SWSEpoch','TotalNoiseEpoch','Epoch');       `
 
-%Epoch corresponding to SWS sleep without the noise 
-TS = and(Epoch-TotalNoiseEpoch,SWSEpoch);
-%Selecting SWS Sleep without Noise Epoch 
-Signals.S.S3.PFCsup_LFP_SWS = Restrict(Signals.S.S3.PFCsup_LFP,TS);
-Signals.S.S3.PFCdeep_LFP_SWS = Restrict(Signals.S.S3.PFCdeep_LFP,TS);
+`%Epoch corresponding to SWS sleep without the noise `
+`TS = and(Epoch-TotalNoiseEpoch,SWSEpoch);`
+`%Selecting SWS Sleep without Noise Epoch `
+`Signals.S.S3.PFCsup_LFP_SWS = Restrict(Signals.S.S3.PFCsup_LFP,TS);`
+`Signals.S.S3.PFCdeep_LFP_SWS = Restrict(Signals.S.S3.PFCdeep_LFP,TS);`
 
-%Computing Variances 
-var_sup = var(Data(Signals.S.S3.PFCsup_LFP_SWS));
-var_deep = var(Data(Signals.S.S3.PFCdeep_LFP_SWS));
+`%Computing Variances `
+`var_sup = var(Data(Signals.S.S3.PFCsup_LFP_SWS));`
+`var_deep = var(Data(Signals.S.S3.PFCdeep_LFP_SWS));`
 
-%Computing Prefators 
-Signals.deep_prefactor = 1;
-Signals.sup_prefactor = var_deep/var_sup;
-%Setting Prefactors in the Interface 
-set(Interface.Sup_prefactor_edit,'String',num2str(Signals.sup_prefactor));
-set(Interface.Deep_prefactor_edit,'String',num2str(Signals.deep_prefactor));
+`%Computing Prefators `
+`Signals.deep_prefactor = 1;`
+`Signals.sup_prefactor = var_deep/var_sup;`
+`%Setting Prefactors in the Interface `
+`set(Interface.Sup_prefactor_edit,'String',num2str(Signals.sup_prefactor));`
+`set(Interface.Deep_prefactor_edit,'String',num2str(Signals.deep_prefactor));`
 
-%Delta threshold 
-waitbar(0.5,f,'Determining Delta Threshold ...');
-%Computing PFCdeep _ PFCsup with prefactors 
-diff_temp = Data(Signals.S.S3.PFCdeep_LFP_SWS) - Signals.sup_prefactor * Data(Signals.S.S3.PFCsup_LFP_SWS);                                   
+`%Delta threshold `
+`waitbar(0.5,f,'Determining Delta Threshold ...');`
+`%Computing PFCdeep _ PFCsup with prefactors `
+`diff_temp = Data(Signals.S.S3.PFCdeep_LFP_SWS) - Signals.sup_prefactor * Data(Signals.S.S3.PFCsup_LFP_SWS);                                   `
 
-%Filtering 
-b = fir1(1024,[1 12]*(2/Signals.fs));
-diff_temp_filtered = filtfilt(b,1,diff_temp);
+`%Filtering `
+`b = fir1(1024,[1 12]*(2/Signals.fs));`
+`diff_temp_filtered = filtfilt(b,1,diff_temp);`
 
-%Selecting positive values 
-pos_diff_temp = max(diff_temp_filtered,0);
+`%Selecting positive values `
+`pos_diff_temp = max(diff_temp_filtered,0);`
 
-%Computing std that determines threshold
-std_diff = std(pos_diff_temp(pos_diff_temp>0));                            
-Signals.delta_treshold = 2 * std_diff * 0.195e-3;
-set(Interface.delta_edit,'String',num2str(Signals.delta_treshold));
-waitbar(1,f,'Operation Completed');
-pause(0.5);
-close(f);
-`
+`%Computing std that determines threshold`
+`std_diff = std(pos_diff_temp(pos_diff_temp>0));                            `
+`Signals.delta_treshold = 2 * std_diff * 0.195e-3;`
+`set(Interface.delta_edit,'String',num2str(Signals.delta_treshold));`
+`waitbar(1,f,'Operation Completed');`
+`pause(0.5);`
+`close(f);`
+```
 
 
 ## Functionalities
