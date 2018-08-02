@@ -89,8 +89,11 @@ The Lecture Controls Panel allows to **Run**/**Stop** the Simulation, to select 
 ![](https://user-images.githubusercontent.com/41677251/43589894-f4744b4c-966f-11e8-96c2-41f4d5f425e0.png)
 
 As in **_read_continuously.m_**, PFC deep, PFC sup, their difference and the filtered signal are plotted. At the bottom, different modes are possible to observe Delta Waves. 
+
 --> A live mode in which the last Delta Wave detected will be actualized
+
 --> A Navigation mode which allow to navigates between all the Delta Waves
+
 --> A mean mode which refresh the mean Delta Wave at each new detection
 
 * **Sleep Scoring Panel**
