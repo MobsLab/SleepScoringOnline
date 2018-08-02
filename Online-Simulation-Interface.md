@@ -83,6 +83,8 @@ Then the function computes parameters that optimize Delta Detection: **multiplic
 
 ![](https://user-images.githubusercontent.com/41677251/43589348-cd487828-966e-11e8-945b-30a8bc7f25c0.png)
 
+The Lecture Controls Panel allows to Run/Stop the Simulation, to select reading speed with the slider and to select a specific time span if necessary by entering t0 and t1 in seconds and clicking on **Time Seletion** button. It is also possible to reset and select another time span. 
+
 * **Sleep Scoring Panel**
 
 ![](https://user-images.githubusercontent.com/41677251/43589894-f4744b4c-966f-11e8-96c2-41f4d5f425e0.png)
