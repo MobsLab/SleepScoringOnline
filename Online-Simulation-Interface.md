@@ -33,8 +33,8 @@ Gamma (OB), Theta and Delta (HPC) signals are filtered with _bandpass_ Matlab fi
 
 Then the function computes parameters that optimize Delta Detection: **multiplicative prefactors** for PFCdeep and PFCsup and **Delta Threshold**. To compute these parameters we only keep non noisy SWS Signals. Prefactors multiplication aims to make the PFC sup and PFC deep signals look similar when there is no Delta. PFC deep prefactor is set to 1 and sup prefactor is equal to the ratio of the PFC deep variance over PFC sup variance. Delta threshold equals two times the std of filtered difference (PFC deep - PFC deep). Here is the code :
 
-``%Prefactors `
-`load(strcat(Signals.dname,'/Processed/SleepScoring_OBGamma.mat'),'SWSEpoch','TotalNoiseEpoch','Epoch');       `
+`%Prefactors `
+`load(strcat(Signals.dname,'/Processed/SleepScoring_OBGamma.mat'),'SWSEpoch','TotalNoiseEpoch','Epoch');`
 `%Epoch corresponding to SWS sleep without the noise `
 `TS = and(Epoch-TotalNoiseEpoch,SWSEpoch);`
 `%Selecting SWS Sleep without Noise Epoch `
