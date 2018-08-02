@@ -80,8 +80,16 @@ Then the function computes parameters that optimize Delta Detection: **multiplic
 ## Functionalities
 
 * **Lecture Controls Panel** 
+
+![](https://user-images.githubusercontent.com/41677251/43589348-cd487828-966e-11e8-945b-30a8bc7f25c0.png)
+
 * **Sleep Scoring Panel**
+
+
+
 * **Delta Detection Panel**
+
+
 
 ## Results
 
