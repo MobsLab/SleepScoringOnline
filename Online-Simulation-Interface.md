@@ -100,7 +100,7 @@ Filter order, cutoff frequency and duration conditions can also be selected on t
 
 * **Sleep Scoring Panel**
 
-
+![](https://user-images.githubusercontent.com/41677251/43591456-af0ecc5e-9673-11e8-869f-53aa6c6528df.png)
 
 ## Results
 
