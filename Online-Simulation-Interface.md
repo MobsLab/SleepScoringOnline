@@ -61,22 +61,23 @@ Computing Prefators
 `set(Interface.Sup_prefactor_edit,'String',num2str(Signals.sup_prefactor));`
 `set(Interface.Deep_prefactor_edit,'String',num2str(Signals.deep_prefactor));`
 
-Delta threshold 
-
 Computing PFCdeep _ PFCsup with prefactors 
 
 `diff_temp = Data(Signals.S.S3.PFCdeep_LFP_SWS) - Signals.sup_prefactor * Data(Signals.S.S3.PFCsup_LFP_SWS);                                 `
+
 Filtering
 
 `b = fir1(1024,[1 12]*(2/Signals.fs));`
 `diff_temp_filtered = filtfilt(b,1,diff_temp);`
-`%Selecting positive values `
+
+Selecting positive values
+
 `pos_diff_temp = max(diff_temp_filtered,0);`
-`%Computing std that determines threshold`
+
+Computing std that determines threshold
+
 `std_diff = std(pos_diff_temp(pos_diff_temp>0));                            `
 `Signals.delta_treshold = 2 * std_diff * 0.195e-3;`
-`set(Interface.delta_edit,'String',num2str(Signals.delta_treshold));`
-```
 
 
 ## Functionalities
