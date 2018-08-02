@@ -8,7 +8,6 @@ Here is how the Interface looks like:
 ## 2. Get Started 
 
 ## 3. Functionalities
-
 * Lecture Controls Panel 
 * Sleep Scoring Panel
 * Delta Detection Panel 
