@@ -85,7 +85,7 @@ Then the function computes parameters that optimize Delta Detection: **multiplic
 
 * **Sleep Scoring Panel**
 
-
+![](https://user-images.githubusercontent.com/41677251/43589894-f4744b4c-966f-11e8-96c2-41f4d5f425e0.png)
 
 * **Delta Detection Panel**
 
