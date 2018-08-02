@@ -1,2 +1,3 @@
-Compare Hypnograms 
-Compare Detections
+## Hypnograms Comparison 
+
+## Delta Detection Comparison 
