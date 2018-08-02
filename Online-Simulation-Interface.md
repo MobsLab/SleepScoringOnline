@@ -10,12 +10,10 @@ Here is how the Interface looks like:
 
 ## 3. Functionalities
 
-Lecture Controls Panel 
-Sleep Scoring Panel
-Delta Detection Panel 
+* Lecture Controls Panel 
+* Sleep Scoring Panel
+* Delta Detection Panel 
 
 ## 4. Results
 
-BlaBla
-
-5. Online Simulation without Display  
+## 5. Faster Simulation without display   
