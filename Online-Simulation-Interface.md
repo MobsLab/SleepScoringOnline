@@ -14,7 +14,7 @@ Lecture Controls Panel
 Sleep Scoring Panel
 Delta Detection Panel 
 
-4. Results
+## 4. Results
 
 BlaBla
 
