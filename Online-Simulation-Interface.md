@@ -43,31 +43,28 @@ Then the function computes parameters that optimize Delta Detection: **multiplic
 
 --> Selecting SWS Sleep without Noise Epoch
 
-`Signals.S.S3.PFCsup_LFP_SWS = Restrict(Signals.S.S3.PFCsup_LFP,TS);`
+`PFCsup_LFP_SWS = Restrict(PFCsup_LFP,TS);`
 
-`Signals.S.S3.PFCdeep_LFP_SWS = Restrict(Signals.S.S3.PFCdeep_LFP,TS);`
+`PFCdeep_LFP_SWS = Restrict(PFCdeep_LFP,TS);`
 
 --> Computing Variances
 
-`var_sup = var(Data(Signals.S.S3.PFCsup_LFP_SWS));`
+`var_sup = var(Data(PFCsup_LFP_SWS));`
 
-`var_deep = var(Data(Signals.S.S3.PFCdeep_LFP_SWS));`
+`var_deep = var(Data(PFCdeep_LFP_SWS));`
 
 --> Computing Prefators
 
-`Signals.deep_prefactor = 1;`
-`Signals.sup_prefactor = var_deep/var_sup;`
-`%Setting Prefactors in the Interface `
-`set(Interface.Sup_prefactor_edit,'String',num2str(Signals.sup_prefactor));`
-`set(Interface.Deep_prefactor_edit,'String',num2str(Signals.deep_prefactor));`
+`deep_prefactor = 1;`
+`sup_prefactor = var_deep/var_sup;`
 
 --> Computing PFCdeep _ PFCsup with prefactors 
 
-`diff_temp = Data(Signals.S.S3.PFCdeep_LFP_SWS) - Signals.sup_prefactor * Data(Signals.S.S3.PFCsup_LFP_SWS);                                 `
+`diff_temp = Data(PFCdeep_LFP_SWS) - sup_prefactor * Data(PFCsup_LFP_SWS);                                 `
 
 --> Filtering
 
-`b = fir1(1024,[1 12]*(2/Signals.fs));`
+`b = fir1(1024,[1 12]*(2/fs));`
 `diff_temp_filtered = filtfilt(b,1,diff_temp);`
 
 --> Selecting positive values
