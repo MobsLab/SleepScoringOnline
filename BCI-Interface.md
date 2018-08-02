@@ -12,7 +12,7 @@ It is done using PFC deep and PFC sup signals. After being substracted (PFC deep
 * Respecting refractory time between 2 detections. 
 All these parameters can be set by the user on the Delta Detection panel. It is also possible to set multiplicative pre-factors for each PFC deep and PFC sup LFP signals. 
 Check Pre-Processing chapter in Online Simulation page to see how to to compute optimal values for these parameters to enhance the detection precision. (https://github.com/MobsLab/DeltaFeedBack/wiki/Online-Simulation-Interface).
-Check Results page to see how detections timestamps are saved (https://github.com/MobsLab/DeltaFeedBack/wiki/Results). 
+Check Results page to see how detections timestamps are saved (https://github.com/MobsLab/DeltaFeedBack/wiki/Saved-Results). 
 
 
 ## Sleep scoring
