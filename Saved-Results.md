@@ -1,9 +1,9 @@
 ## File output
 
-Most of the results files are generated in _read_continuously.m_, except for _digitalout.dat_ which contains the real time hypnogram.
+Most of the results files are generated in **_read_continuously.m_**, except for **_digitalout.dat_** which contains the real time hypnogram.
 
 ### Sleep scoring
-Sleep scoring results are stored in _sleepstage.mat_ which contains the _allresult_ matrix with the following columns:
+Sleep scoring results are stored in **_sleepstage.mat_** which contains the _allresult_ matrix with the following columns:
 
 1. **Matlab counter:** Matlab is supposed to iterate every second, it seems that it is not perfectly accurate.
 2. **Time:** in seconds, calculated from the Intan timestamps, accurate timestamps for post processing.
@@ -16,7 +16,7 @@ Sleep scoring results are stored in _sleepstage.mat_ which contains the _allresu
 9. **Sleep stage**: Current sleep stage, 1=NREM, 2=REM, 3=Wake
 
 ### Hypnogram
-Because the intan outputs the sleep stage in the digitalout 8 to 10 pins, an hypnogram traducing the results of the sleepscoring process is stored in _digitalout.dat_ . This can be used to evaluate the performance of the sleep scoring process during the night, without posterior adjustment of the thresholds. The hypnogram can be obtained with the following bit of code:
+Because the intan outputs the sleep stage in the digitalout 8 to 10 pins, an hypnogram traducing the results of the sleep scoring process is stored in **_digitalout.dat_** . This can be used to evaluate the performance of the sleep scoring process during the night, without posterior adjustment of the thresholds. The hypnogram can be obtained with the following bit of code:
 
 `fileinfo = dir('digitalout.dat');`
 
