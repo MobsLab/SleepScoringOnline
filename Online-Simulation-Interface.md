@@ -35,15 +35,25 @@ Then the function computes parameters that optimize Delta Detection: **multiplic
 
 `%Prefactors `
 `load(strcat(Signals.dname,'/Processed/SleepScoring_OBGamma.mat'),'SWSEpoch','TotalNoiseEpoch','Epoch');`
+
 `%Epoch corresponding to SWS sleep without the noise `
+
 `TS = and(Epoch-TotalNoiseEpoch,SWSEpoch);`
+
 `%Selecting SWS Sleep without Noise Epoch `
+
 `Signals.S.S3.PFCsup_LFP_SWS = Restrict(Signals.S.S3.PFCsup_LFP,TS);`
+
 `Signals.S.S3.PFCdeep_LFP_SWS = Restrict(Signals.S.S3.PFCdeep_LFP,TS);`
+
 `%Computing Variances `
+
 `var_sup = var(Data(Signals.S.S3.PFCsup_LFP_SWS));`
+
 `var_deep = var(Data(Signals.S.S3.PFCdeep_LFP_SWS));`
+
 `%Computing Prefators `
+
 `Signals.deep_prefactor = 1;`
 `Signals.sup_prefactor = var_deep/var_sup;`
 `%Setting Prefactors in the Interface `
