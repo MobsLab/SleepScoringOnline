@@ -5,11 +5,11 @@ As we were developing the BCI, we found it necessary to develop another User Int
 Here is how the Interface looks like:
 ![](https://user-images.githubusercontent.com/41677251/43520501-5d61e746-9593-11e8-97c0-b8249fc95ddf.png)
 
-## Get Started 
+## Getting Started 
 
-### Load Signals
+* **Load Signals**
 
-### Pre Processing
+* **Pre-Processing**
 
 ## Functionalities
 
