@@ -15,7 +15,7 @@ We also mention technical choices made during the development of the interface a
 ### [Starting a recording session](https://github.com/MobsLab/DeltaFeedBack/wiki/Starting-a-recording-session)
 ## Functions
 ### [BCI Interface](https://github.com/MobsLab/DeltaFeedBack/wiki/BCI-Interface)
-### [Results](https://github.com/MobsLab/DeltaFeedBack/wiki/Results)
+### [Saved Results](https://github.com/MobsLab/DeltaFeedBack/wiki/Saved-Results)
 ### [Mouse parameters](https://github.com/MobsLab/DeltaFeedBack/wiki/Mouse-parameters)
 ### [Post Processing](https://github.com/MobsLab/DeltaFeedBack/wiki/Post-processing)
 ### [Online Simulation Interface](https://github.com/MobsLab/DeltaFeedBack/wiki/Online-Simulation-Interface)
