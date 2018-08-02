@@ -1,4 +1,4 @@
-The interface is launched by running _read_continuously.m_ in Matlab, it is organised as displayed below:
+The interface is launched by running **_read_continuously.m_** in Matlab, it is organised as displayed below:
 
 ![](https://user-images.githubusercontent.com/41677251/43532135-b2dd0f7a-95b1-11e8-91be-222eb78e68aa.PNG)
 
@@ -27,6 +27,6 @@ In the interface, the displayed hypnogram covers the last hour of recording. It 
 After some time, when the mouse has gone trough the three different sleep stages, it is possible to fit a Gaussian Mixture model on the points. From this Gaussian Mixture model, we can get the posterior probability of the mouse being in each of the three sleep stages at any time.
 
 ## Miscelaneous
-If a webcam is connected to the computer, a preview is available to check the experimental conditions. A mask is applied to the webcam video feed to restrict it to the area of interest (ie. the cages), this mask can be adjusted in _boardUI.m_
+If a webcam is connected to the computer, a preview is available to check the experimental conditions. A mask is applied to the webcam video feed to restrict it to the area of interest (ie. the cages), this mask can be adjusted in **_boardUI.m_**
 
 It is possible to create a .evt file to open in neuroscope with events at the delta detections.
