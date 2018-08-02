@@ -76,20 +76,24 @@ Then the function computes parameters that optimize Delta Detection: **multiplic
 `std_diff = std(pos_diff_temp(pos_diff_temp>0));                            `
 `Signals.delta_treshold = 2 * std_diff * 0.195e-3;`
 
-
 ## Functionalities
 
 * **Lecture Controls Panel** 
 
 ![](https://user-images.githubusercontent.com/41677251/43589348-cd487828-966e-11e8-945b-30a8bc7f25c0.png)
 
-The Lecture Controls Panel allows to **Run**/**Stop** the Simulation, to select reading speed with the slider and to select a specific time span if necessary by entering t0 and t1 in seconds and clicking on **Time Seletion** button. It is also possible to **Reset** in order select another time span. If **TimeSelection** button is not pushed, the lecture will start at the begging of the acquisition and end at the ending of the acquisition.
+The Lecture Controls Panel allows to **Run**/**Stop** the Simulation, to select reading speed with the slider and to select a specific time span if necessary by entering t0 and t1 in seconds and clicking on **Time Seletion** button. The speed is limited by the plots, but we can reach higher lecture speeds than during real acquisitions. It is also possible to **Reset** in order select another time span. If **TimeSelection** button is not pushed, the lecture will start at the begging of the acquisition and end at the ending of the acquisition. Do not forget to apply thresholds if you decide to change them during acquisition. 
 
-* **Sleep Scoring Panel**
+* **Delta Detection Panel**
 
 ![](https://user-images.githubusercontent.com/41677251/43589894-f4744b4c-966f-11e8-96c2-41f4d5f425e0.png)
 
-* **Delta Detection Panel**
+As in **_read_continuously.m_**, PFC deep, PFC sup, their difference and the filtered signal are plotted. At the bottom, different modes are possible to observe Delta Waves. 
+--> A live mode in which the last Delta Wave detected will be actualized
+--> A Navigation mode which allow to navigates between all the Delta Waves
+--> A mean mode which refresh the mean Delta Wave at each new detection
+
+* **Sleep Scoring Panel**
 
 
 
