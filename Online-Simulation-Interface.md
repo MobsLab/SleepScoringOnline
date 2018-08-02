@@ -106,4 +106,10 @@ Here again, two display modes are possible in addition to the phase space: the f
 
 ## Results
 
-## Faster Simulation without display   
+![](https://user-images.githubusercontent.com/41677251/43593940-508b96fc-9679-11e8-82c9-2b8bd2bd4b47.png)
+
+When there is no more signal to read, a Matlab window opens to save the _onlinedetection.mat_ file in the DeltaDetection folder. This matrix contains Starting and Ending timestamps of each detection. 
+
+## Faster Simulation without display
+
+**_check_Delta_NoDisplay.m_** function generates the same Delta Detection matrix without any User Interface. It allows to save a lot of time (there is no more Matlab Timer object). 
