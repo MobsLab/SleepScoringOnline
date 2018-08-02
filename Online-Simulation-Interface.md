@@ -13,13 +13,16 @@ The two first things to do are to Load Signals and do the Pre-Processing, with t
 
 * **Load Signals**
 
-When you click Load Button, first select the acquisition directory containing LFP files you want to read:
+When you click **Load** Button, first select the acquisition directory containing LFP files you want to read:
 
 ![](https://user-images.githubusercontent.com/41677251/43585162-ae632b7e-9664-11e8-8442-23430e984fb2.png)
 
 Then, select the corresponding -.csv- parameters file:
 
 ![](https://user-images.githubusercontent.com/41677251/43585227-e5b7fb54-9664-11e8-92e2-3ee5befecd7a.png)
+
+**_Load.m_** function will convert _.tsd objects_ in _.mat_ files, determine the sampling frequency and create take the acquisition time stamps to create a time vector.
+
 * **Pre-Processing**
 
 ## Functionalities
