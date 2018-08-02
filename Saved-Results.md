@@ -63,5 +63,5 @@ When Delta Waves detection is activated, two types of timestamps are saved: time
 
 * **_fires_actual_time.mat_** contains the timestamps in 0.1 ms corresponding to all effective stimulations, taking in account the refractory time between two stimulations. 
 
-* **_digin.mat_** contains all the timestamps of the acquisition in 0.1 ms. 
+* **_digin.mat_** contains the timestamps in 0.1 ms corresponding to 3.3 V pulses sent on any Intan Digital Inputs (from DI1 to DI4) during the acquisition. 
 
