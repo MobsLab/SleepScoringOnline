@@ -13,7 +13,7 @@ The two first things to do are to Load Signals and do the Pre-Processing, with t
 
 ![](https://user-images.githubusercontent.com/41677251/43575823-138d32be-9648-11e8-85d9-c199b531ef01.png)
 
-* **Load Signals**
+* **Loading Signals**
 
 When you click **Load** Button, first select the acquisition directory containing LFP files you want to read:
 
