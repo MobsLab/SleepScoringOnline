@@ -9,7 +9,7 @@ The BCI must be installed on a Windows operating computer, as the Intan RHD2000 
 * Install the RHD2000 drivers
 * Install the RHD2000 Matlab toolbox
 * Clone the BCI git repository
-* launch _readcontinuously.m_
+* launch **_read_continuously.m_**
 
 ## Troubleshooting:
 
