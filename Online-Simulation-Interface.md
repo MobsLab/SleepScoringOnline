@@ -96,6 +96,8 @@ As in **_read_continuously.m_**, PFC deep, PFC sup, their difference and the fil
 
 --> A mean mode which refresh the mean Delta Wave at each new detection
 
+Filter order, cutoff frequency and duration conditions can also be selected on the interface. 
+
 * **Sleep Scoring Panel**
 
 
