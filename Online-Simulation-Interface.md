@@ -7,6 +7,9 @@ Here is how the Interface looks like:
 
 ## Get Started 
 
+### Load Signals
+
+### Pre Processing
 
 ## Functionalities
 
