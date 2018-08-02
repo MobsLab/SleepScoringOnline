@@ -5,19 +5,18 @@ As we were developing the BCI, we found it necessary to develop another User Int
 Here is how the Interface looks like:
 ![](https://user-images.githubusercontent.com/41677251/43520501-5d61e746-9593-11e8-97c0-b8249fc95ddf.png)
 
-## 2. Get Started 
+2. Get Started 
 
-BlaBla
 
-## 3. Functionalities
+3. Functionalities
 
 BlaBla 
-### * Lecture Controls Panel 
-### * Sleep Scoring Panel
-### * Delta Detection Panel 
+Lecture Controls Panel 
+Sleep Scoring Panel
+Delta Detection Panel 
 
-## 4. Results
+4. Results
 
 BlaBla
 
-## 5. Online Simulation without Display  
+5. Online Simulation without Display  
