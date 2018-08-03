@@ -52,7 +52,7 @@ Here the program that we compiled on TDT amplifier for our use:
 
 ![](https://user-images.githubusercontent.com/41677251/43640396-17a0db84-9720-11e8-9179-f4652a1048c0.PNG)
 
-TDT Digital Inputs are represented by **_BitIn_** boxes. The M value inside the box corresponds to the Digital Input number squared:
+TDT Digital Inputs are represented by **_BitIn_** boxes. The M value inside the box corresponds to the Digital Input binary number:
 
 * M = 1 corresponds to DI0
 
