@@ -7,7 +7,9 @@ To trigger the arduino, we send over the serial link a binary file using **_fwri
 * Second byte corresponds to the sound tone requested.
 
 ## After the trigger
-After receiving a trigger, the arduino sends a ttl back to the Intan board's digital out allowing to measure the effective stimulation time, which is processed into **_fires_actual_times.mat_**. The arduino board also triggers the TDT amplifier to generate the stimulation. 
+After receiving a trigger, the arduino sends a ttl back to the Intan board's digital out allowing to measure the effective stimulation time, which is processed into **_fires_actual_times.mat_**. The arduino board also triggers the TDT amplifier to generate the stimulation.
+ 
+![](https://user-images.githubusercontent.com/41677251/43640313-c6d726cc-971f-11e8-8d14-f72f570da949.PNG)
 
 ## Code example
 
