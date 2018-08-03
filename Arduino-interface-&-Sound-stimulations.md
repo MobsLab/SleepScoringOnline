@@ -3,7 +3,16 @@ To establish a link between Matlab and the Arduino board, we use Matlab's serial
 
 ## Triggering the arduino
 To trigger the arduino, we send over the serial link a binary file using **_fwrite_**:
-* First byte corresponds to the mode: delay vs no delay and number of stims
+
+The mode and the sound are sent to the arduino as an integer AB => A is the mode and B is the sound type
+
+`function obj=testArduino(obj)`
+`if strcmp(arduino.Status,'open')`
+`fwrite(arduino,1*10+obj.sound_tone);`
+`end`
+`end`
+
+* First byte corresponds to the mode: delay vs no delay and number of stims (1 here)
 * Second byte corresponds to the sound tone requested.
 
 ## After the trigger
