@@ -11,7 +11,7 @@ From this we can see that accuracy for NREM and Wake is excellent (over 95%), RE
 
 We also compared results of online vs offline delta detection algorithms. 
 
-**_compare_detections.m_** function generates comparisons figures between any detection matrix generated with **_read_continuously.m_**, **_SleepScoring_Simulation.m_** or **_CreateDeltaWavesOffline.m_** functions.
+**_compare_detections.m_** function generates comparisons figures between any detection matrix generated with _read_continuously.m_, _SleepScoring_Simulation.m_ or _CreateDeltaWavesOffline.m_ functions.
 This comparison function computes different statistics to compare detections:
 
 * **_f1 score_**, which takes in account both precision and recall probabilities.
@@ -19,6 +19,5 @@ This comparison function computes different statistics to compare detections:
 * Online and Offline Delta Waves duration distributions. 
 * Cross_correlation between online and offline detections.
 
- It is also possible to mean these results with several nights. 
-
-A short lag can appears between online and offline detections because of  
+It is also possible to mean these results with several nights. 
+ 
