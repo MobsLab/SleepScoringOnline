@@ -1,6 +1,14 @@
 ## File output
 
-Most of the results files are generated in **_read_continuously.m_**, except for **_digitalout.dat_** which contains the real time hypnogram.
+Most of the results files are generated in **_read_continuously.m_**, except for **_digitalout.dat_** which contains the real time hypnogram. 
+
+Saved timestamps are coming from Intan. Matlab function **_read_next.m_** refreshes the _datablock object_ at each datablock. The _datablock object_ is initialized in **_run_button_Callback_** function. 
+
+`handles.datablock = rhd2000.datablock.Datablock(handles.boardUI.Board)`
+
+ Timestamps are continuously recovered in **_newdata_time_** array in **_process_data_block_** function:*
+
+`newdata_time = datablock.Timestamps` 
 
 ### Sleep scoring
 Sleep scoring results are stored in **_sleepstage.mat_** which contains the _allresult_ matrix with the following columns:
@@ -64,4 +72,3 @@ When Delta Waves detection is activated, two types of timestamps are saved: time
 * **_fires_actual_time.mat_** contains the timestamps in 0.1 ms corresponding to all effective stimulations, taking in account the refractory time between two stimulations. 
 
 * **_digin.mat_** contains the timestamps in 0.1 ms corresponding to 3.3 V pulses sent on any Intan Digital Inputs (from DI1 to DI4) during the acquisition. 
-
