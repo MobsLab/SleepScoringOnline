@@ -36,13 +36,13 @@ To trigger the arduino, we send over the serial link a binary file using **_fwri
 `end`
 
 ## After the trigger
-After receiving a trigger, the arduino **_DeltaTone_Last_** program first decodes the number sent by Matlab (mode and sount type). Then it does three things: 
+After receiving a trigger, the arduino **_DeltaTone_Last_** program first decodes the number sent by Matlab (mode and sound type). Then it does three things: 
 
 * Serial communication is flushed to be ready to receive the next trigger. 
 
 * It sends a ttl back to the Intan board's digital out allowing to measure the effective stimulation time, which is processed into **_fires_actual_times.mat_**. Trigger lags measures are presented in the **Technical issues** page. 
 
-* Finally, Arduino board triggers the TDT amplifier to generate the stimulation. We use the TrigIn of the TDT to start the stimulation generation, and we use its Digital Inputs to apply the write sound mode. Here is the complete electric block diagram:
+* Finally, Arduino board triggers the TDT amplifier to generate the stimulation. We use the **TrigIn** of the TDT to start the stimulation generation, and we use its Digital Inputs to apply the write sound mode. Here is the complete electric block diagram:
  
 ![](https://user-images.githubusercontent.com/41677251/43641808-4e12e996-9725-11e8-9d03-ab40f7542165.PNG)
 
@@ -52,7 +52,7 @@ Here the program that we compiled on TDT amplifier for our use:
 
 ![](https://user-images.githubusercontent.com/41677251/43640396-17a0db84-9720-11e8-9179-f4652a1048c0.PNG)
 
-TDT Digital Inputs are represented by _BitIn_ boxes. The M value inside the box corresponds to the Digital Input number squared:
+TDT Digital Inputs are represented by **_BitIn_** boxes. The M value inside the box corresponds to the Digital Input number squared:
 
 * M = 1 corresponds to DI0
 
@@ -62,7 +62,7 @@ TDT Digital Inputs are represented by _BitIn_ boxes. The M value inside the box 
 
 * M = 8 corresponds to DI3
 
-The _FromBits_ box combines all the bytes to make an integer output which will sent to the multiplexer (_MuxIn_ box). The multiplexer will select the entry (Tone or Gaussion Noise) corresponding to this value. 
+The **_FromBits_** box combines all the bytes to make an integer output which will sent to the multiplexer (**_MuxIn_** box). The multiplexer will select the entry (Tone or Gaussian Noise) corresponding to this value. 
  
 ## Code example
 
