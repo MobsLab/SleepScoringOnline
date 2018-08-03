@@ -10,9 +10,9 @@ In the graphical interface, the user can also choose a minimum refractory time b
 To establish a link between Matlab and the Arduino board, we use Matlab's serial interface. After selecting the correct COM port number (in Settings=>Devices), we establish a connection using matlab's _fopen_ function.
 
 ## Triggering the arduino
-To trigger the arduino, we send over the serial link a binary file using **_fwrite_**:
+To trigger the arduino, we send over the serial link a binary file using **_fwrite_** in **_BoardPlot.m_** function:
 
-The mode and the sound are sent to the arduino as an integer AB => A is the mode and B is the sound type
+The mode and the sound are sent to the arduino as an integer AB.The decade A (first byte) corresponds to the mode and the unit B (second byte) is the sound type. Here is the little Matlab function which writes in the Arduino board.  
 
 `function obj=testArduino(obj)`
 
@@ -24,13 +24,15 @@ The mode and the sound are sent to the arduino as an integer AB => A is the mode
 
 `end`
 
-* First byte corresponds to the mode: delay vs no delay and number of stims (1 here)
-* Second byte corresponds to the sound tone requested.
-
 ## After the trigger
-After receiving a trigger, the arduino sends a ttl back to the Intan board's digital out allowing to measure the effective stimulation time, which is processed into **_fires_actual_times.mat_**. Trigger lags measures are presented in the **Technical issues** page. The arduino board also triggers the TDT amplifier to generate the stimulation.
+After receiving a trigger, the arduino first decodes the number (mode and sount type). Then it does two things: 
+
+* it sends a ttl back to the Intan board's digital out allowing to measure the effective stimulation time, which is processed into **_fires_actual_times.mat_**. Trigger lags measures are presented in the **Technical issues** page. 
+* The arduino board also triggers the TDT amplifier to generate the stimulation. We use the TrigIn of the TDT to start generate the stimulation, and we use its Digital Inputs to apply the write sound mode. Here is the complete electric block diagram:
  
 ![](https://user-images.githubusercontent.com/41677251/43641808-4e12e996-9725-11e8-9d03-ab40f7542165.PNG)
+
+To control different sound modes generation with TDT amplifier, it is interfaced with **RPvdsEx** software. (https://www.tdt.com/files/manuals/RPvdsEx_Manual.pdf) 
 
 ![](https://user-images.githubusercontent.com/41677251/43640396-17a0db84-9720-11e8-9179-f4652a1048c0.PNG)
 
