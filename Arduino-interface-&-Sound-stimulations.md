@@ -42,7 +42,7 @@ After receiving a trigger, the arduino **_DeltaTone_Last_** program first decode
 
 * It sends a ttl back to the Intan board's digital out allowing to measure the effective stimulation time, which is processed into **_fires_actual_times.mat_**. Trigger lags measures are presented in the **Technical issues** page. 
 
-* Finally, Arduino board triggers the TDT amplifier to generate the stimulation. We use the **TrigIn** of the TDT to start the stimulation generation, and we use its Digital Inputs to apply the write sound mode. Here is the complete electric block diagram:
+* Finally, Arduino board triggers the TDT amplifier to generate the stimulation. We use the **TrigIn** of the TDT to start the stimulation generation, and we send different bytes combinations to its Digital Inputs to apply the write sound mode. Here is the complete electric block diagram:
  
 ![](https://user-images.githubusercontent.com/41677251/43641808-4e12e996-9725-11e8-9d03-ab40f7542165.PNG)
 
