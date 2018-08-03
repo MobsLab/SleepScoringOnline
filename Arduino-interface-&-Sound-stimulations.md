@@ -36,10 +36,13 @@ To trigger the arduino, we send over the serial link a binary file using **_fwri
 `end`
 
 ## After the trigger
-After receiving a trigger, the arduino first decodes the number (mode and sount type). Then it does two things: 
+After receiving a trigger, the arduino **_DeltaTone_Last_** first decodes the number sent by Matlab (mode and sount type). Then it does three things: 
 
-* it sends a ttl back to the Intan board's digital out allowing to measure the effective stimulation time, which is processed into **_fires_actual_times.mat_**. Trigger lags measures are presented in the **Technical issues** page. 
-* The arduino board also triggers the TDT amplifier to generate the stimulation. We use the TrigIn of the TDT to start generate the stimulation, and we use its Digital Inputs to apply the write sound mode. Here is the complete electric block diagram:
+* Serial communication is flushed to be ready to receive the next trigger. 
+
+* It sends a ttl back to the Intan board's digital out allowing to measure the effective stimulation time, which is processed into **_fires_actual_times.mat_**. Trigger lags measures are presented in the **Technical issues** page. 
+
+* Finally, Arduino board triggers the TDT amplifier to generate the stimulation. We use the TrigIn of the TDT to start the stimulation generation, and we use its Digital Inputs to apply the write sound mode. Here is the complete electric block diagram:
  
 ![](https://user-images.githubusercontent.com/41677251/43641808-4e12e996-9725-11e8-9d03-ab40f7542165.PNG)
 
@@ -48,6 +51,8 @@ To control different sound modes generation with TDT amplifier, it is interfaced
 Here the program that we compiled on TDT amplifier for our use:
 
 ![](https://user-images.githubusercontent.com/41677251/43640396-17a0db84-9720-11e8-9179-f4652a1048c0.PNG)
+
+
 
 ## Code example
 
