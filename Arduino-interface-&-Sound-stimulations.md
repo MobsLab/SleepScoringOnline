@@ -36,7 +36,7 @@ To trigger the arduino, we send over the serial link a binary file using **_fwri
 `end`
 
 ## After the trigger
-After receiving a trigger, the arduino **_DeltaTone_Last_** first decodes the number sent by Matlab (mode and sount type). Then it does three things: 
+After receiving a trigger, the arduino **_DeltaTone_Last_** program first decodes the number sent by Matlab (mode and sount type). Then it does three things: 
 
 * Serial communication is flushed to be ready to receive the next trigger. 
 
@@ -52,8 +52,18 @@ Here the program that we compiled on TDT amplifier for our use:
 
 ![](https://user-images.githubusercontent.com/41677251/43640396-17a0db84-9720-11e8-9179-f4652a1048c0.PNG)
 
+TDT Digital Inputs are represented by _BitIn_ boxes. The M value inside the box corresponds to the Digital Input number squared:
 
+* M = 1 corresponds to DI0
 
+* M = 2 corresponds to DI1
+
+* M = 4 corresponds to DI2
+
+* M = 8 corresponds to DI3
+
+The _FromBits_ box combines all the bytes to make an integer output which will sent to the multiplexer (_MuxIn_ box). The multiplexer will select the entry (Tone or Gaussion Noise) corresponding to this value. 
+ 
 ## Code example
 
  ```void loop(){
