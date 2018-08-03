@@ -42,11 +42,22 @@ After receiving a trigger, the arduino **_DeltaTone_Last_** program first decode
 
 * It sends a ttl back to the Intan board's digital out allowing to measure the effective stimulation time, which is processed into **_fires_actual_times.mat_**. Trigger lags measures are presented in the **Technical issues** page. 
 
-* Finally, Arduino board triggers the TDT amplifier to generate the stimulation. We use the **TrigIn** of the TDT to start the stimulation generation, and we send different bytes combinations to its Digital Inputs to apply the write sound mode. Here is the complete electric block diagram:
+* Finally, Arduino board triggers the TDT amplifier to generate the stimulation. We use the **TrigIn** of the TDT to start the stimulation generation, and we send different bytes combinations to its Digital Inputs to apply the write sound mode. 
+
+Software manual: (https://www.tdt.com/files/manuals/RPvdsEx_Manual.pdf)
+TDT amplifier real time processor manual: (https://www.tdt.com/files/manuals/Sys3Manual/RP21.pdf)
+
+Here is the complete electric block diagram:
  
 ![](https://user-images.githubusercontent.com/41677251/43641808-4e12e996-9725-11e8-9d03-ab40f7542165.PNG)
 
-To control different sound modes generation with TDT amplifier, it is interfaced with **RPvdsEx** software. This software offers the possibility to control the TDT processor in order to manipulate TDT Digital Inputs in real time. (https://www.tdt.com/files/manuals/RPvdsEx_Manual.pdf)
+The HDMI numbers were chosen to match with Delock terminal block Adaptator ones (https://www.delock.de/produkte/694_Terminalblock/65318/merkmale.html?setLanguage=en). This adaptator is connected to  the amplifier Digital Input/Output DB-25 Interface. It allows us to select the pins corresponding to Digital Inputs in the connector. 
+
+Here is the pin vs DI/O corresponding table taken from the manual:
+
+![]() 
+
+To control different sound modes generation with TDT amplifier, it is interfaced with **RPvdsEx** software. This software offers the possibility to control the TDT processor in order to manipulate TDT Digital Inputs in real time. 
 
 Here the program that we compiled on TDT amplifier for our use:
 
