@@ -22,7 +22,7 @@ The mode and the sound are sent to the arduino as an integer AB => A is the mode
 ## After the trigger
 After receiving a trigger, the arduino sends a ttl back to the Intan board's digital out allowing to measure the effective stimulation time, which is processed into **_fires_actual_times.mat_**. The arduino board also triggers the TDT amplifier to generate the stimulation.
  
-![](https://user-images.githubusercontent.com/41677251/43640313-c6d726cc-971f-11e8-8d14-f72f570da949.PNG)
+![](https://user-images.githubusercontent.com/41677251/43641808-4e12e996-9725-11e8-9d03-ab40f7542165.PNG)
 
 ![](https://user-images.githubusercontent.com/41677251/43640396-17a0db84-9720-11e8-9179-f4652a1048c0.PNG)
 
