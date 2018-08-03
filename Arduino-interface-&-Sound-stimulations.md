@@ -1,6 +1,17 @@
 ## Principle
 
-The brain computer interface, in its present configuration is focused on Delta wave sound stimulation. It is interfaced with an arduino and a TD amplifier. The arduino is triggered via serial communication, the graphical interface enables the user to select the mode (1 vs 10 shots, delay vs no delay) and the type of sound, each mode and sound characteristics can be changed in the arduino code.
+The brain computer interface, in its present configuration is focused on Delta wave sound stimulation. It is interfaced with an arduino and a TD amplifier. The arduino is triggered via serial communication, the graphical interface enables the user to select the mode and the type of sound, each mode and sound characteristics can be changed in the arduino code.
+
+Four modes are available:
+* mode 0, no sound
+* mode 1, 1 shot
+* mode 2, 10 shots
+* mode 3, 1 delayed shot 
+* mode 4, 10 delayed shots
+
+Two sound modes are available
+* sound_mode 0, Tone sound 
+* sound_mode 1, Gaussian sound
 
 In the graphical interface, the user can also choose a minimum refractory time between stimulations and restrict the stimulations to a certain or multiple sleep stages. The user is also given the possibility to send random triggers.
 
