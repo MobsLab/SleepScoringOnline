@@ -8,3 +8,17 @@ From this we can see that accuracy for NREM and Wake is excellent (over 95%), RE
 * The value of the Theta/Delta threshold also has an important effect on this: we computed a ROC curve and realised that it is possible to get close to 100% accuracy on REM sleep by setting a lower T/D ratio. However it comes at the expense of accuracy on NREM sleep.
 
 ## Delta Detection Comparison 
+
+We also compared results of online vs offline delta detection algorithms. 
+
+**_compare_detections.m_** function generates comparisons figures between any detection matrix generated with **_read_continuously.m_**, **_SleepScoring_Simulation.m_** or **_CreateDeltaWavesOffline.m_** functions.
+This comparison function computes different statistics to compare detections:
+
+* **_f1 score_**, which takes in account both precision and recall probabilities.
+* Online and Offline inter duration between Delta Waves distributions. 
+* Online and Offline Delta Waves duration distributions. 
+* Cross_correlation between online and offline detections.
+
+ It is also possible to mean these results with several nights. 
+
+A short lag can appears between online and offline detections because of  
