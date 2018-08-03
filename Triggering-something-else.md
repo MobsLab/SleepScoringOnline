@@ -1,7 +1,3 @@
-## Sound
-
-## Triggering something else
-
 It is also possible to use the interface to stimulate during other events such as specific sleep stages. To do so, it is possible to either code an other arduino interface or use the Intan board 8-10 digitalOut pins that correspond to the current sleep stage:
 * 8 => NREM
 * 9 => REM
