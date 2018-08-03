@@ -2,6 +2,8 @@
 
 Most of the results files are generated in **_read_continuously.m_**, except for **_digitalout.dat_** which contains the real time hypnogram. 
 
+* Intan TimeStamps 
+
 Saved timestamps are coming from Intan. Matlab function **_read_next.m_** refreshes the _datablock object_ at each datablock. The _datablock object_ is initialized in **_run_button_Callback_** function. 
 
 `handles.datablock = rhd2000.datablock.Datablock(handles.boardUI.Board)`
