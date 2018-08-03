@@ -1,3 +1,10 @@
+## Principle
+
+The brain computer interface, in its present configuration is focused on Delta wave sound stimulation. It is interfaced with an arduino and a TD amplifier. The arduino is triggered via serial communication, the graphical interface enables the user to select the mode (1 vs 10 shots, delay vs no delay) and the type of sound, each mode and sound characteristics can be changed in the arduino code.
+
+In the graphical interface, the user can also chose a minimum refractory time between stimulations and restrict the stimulations to a certain or multiple sleep stages. The user is also given the possibility to send random triggers.
+![](https://user-images.githubusercontent.com/41677251/43528325-fc072612-95a8-11e8-810c-1b46bf0788ae.PNG)
+
 ## Establishing a link
 To establish a link between Matlab and the Arduino board, we use Matlab's serial interface. After selecting the correct COM port number (in Settings=>Devices), we establish a connection using matlab's _fopen_ function.
 
