@@ -16,15 +16,15 @@ Check Results page to see how detections timestamps are saved (https://github.co
 
 
 ## Sleep scoring
-Sleep scoring is done using the channels set by the user in the parameters file. The user is given the choice of the thresholds.
+* Sleep scoring is done using the channels set by the user in the parameters file. The user is given the choice of the thresholds.
 The phase space displays points corresponding to the last two hours and the trajectory of the last ten points.
 The distribution of the gamma power and the theta/delta ratio are plotted on each side. The theta/delta ratio distribution is plotted for all the points (blue distribution) and only for the points below the gamma power threshold (red distribution), allowing for a more accurate setting of the gamma threshold value.
-After modifying the threshold, the user can recompute the hypnogram and the statistics by pressing the _recompute hypnogram_ button.
-It is also possible to visualize the transitions between the different sleep stages in a graph by pressing the _compute transitions_ button.
+After modifying the threshold, the user can recompute the hypnogram and the statistics by pressing the **_recompute hypnogram_** button.
+It is also possible to visualize the transitions between the different sleep stages in a graph by pressing the **_compute transitions_** button.
 
-In the interface, the displayed hypnogram covers the last hour of recording. It is possible to navigate in the recording using the slider. Just under the hypnogram is displayed the delta density in a 4 seconds window.
+* In the interface, the displayed hypnogram covers the last hour of recording. It is possible to navigate in the recording using the slider. Just under the hypnogram is displayed the delta density in a 4 seconds window.
 
-After some time, when the mouse has gone trough the three different sleep stages, it is possible to fit a Gaussian Mixture model on the points. From this Gaussian Mixture model, we can get the posterior probability of the mouse being in each of the three sleep stages at any time.
+* After some time, when the mouse has gone trough the three different sleep stages, it is possible to fit a Gaussian Mixture model on the points. From this Gaussian Mixture model, we can get the posterior probability of the mouse being in each of the three sleep stages at any time.
 
 ## Miscelaneous
 If a webcam is connected to the computer, a preview is available to check the experimental conditions. A mask is applied to the webcam video feed to restrict it to the area of interest (ie. the cages), this mask can be adjusted in **_boardUI.m_**
