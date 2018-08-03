@@ -73,7 +73,7 @@ TDT Digital Inputs are represented by **_BitIn_** boxes. The M value inside the 
 
 * M = 8 corresponds to DI3
 
-The **_FromBits_** box combines all the bytes to make an integer output which will sent to the multiplexer (**_MuxIn_** box). The multiplexer will select the entry (Tone or Gaussian Noise) corresponding to this value.  Arduino DO 30 triggers threw the BNC wire the sending of the selected sound to the speaker.  
+The **_FromBits_** box combines all the bytes to make an integer output which will sent to the multiplexer (**_MuxIn_** box). The multiplexer will select the entry (Tone or Gaussian Noise) corresponding to this value.  Arduino COM30 triggers threw the BNC wire the sending of the selected sound to the speaker.  
  
 ## Code example
 
