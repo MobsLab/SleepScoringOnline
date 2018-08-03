@@ -14,5 +14,5 @@
 ### [Softwares Architectures](https://github.com/MobsLab/DeltaFeedBack/wiki/Softwares-Architectures)
 ### [Signal processing](https://github.com/MobsLab/DeltaFeedBack/wiki/Signal-processing)
 ### [Arduino interface & Sound stimulations](https://github.com/MobsLab/DeltaFeedBack/wiki/Arduino-interface-&-Sound-stimulations)
-### [Triggering an external stimulation](https://github.com/MobsLab/DeltaFeedBack/wiki/Triggering-an-external-stimulation)
+### [Triggering something else](https://github.com/MobsLab/DeltaFeedBack/wiki/Triggering-something-else)
 ### [Technical issues](https://github.com/MobsLab/DeltaFeedBack/wiki/Technical-issues)
