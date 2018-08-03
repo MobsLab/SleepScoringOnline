@@ -55,7 +55,7 @@ The HDMI numbers were chosen to match with Delock terminal block Adaptator ones 
 
 Here is the pin vs DI/O corresponding table taken from the manual:
 
-![]() 
+![](https://user-images.githubusercontent.com/41677251/43648434-ac9c1ba8-973a-11e8-8a50-b5770b3e7931.png) 
 
 To control different sound modes generation with TDT amplifier, it is interfaced with **RPvdsEx** software. This software offers the possibility to control the TDT processor in order to manipulate TDT Digital Inputs in real time. 
 
