@@ -25,4 +25,4 @@ We also mention technical choices made during the development of the interface a
 ### [Signal processing](https://github.com/MobsLab/DeltaFeedBack/wiki/Signal-processing)
 ### [Triggering an external stimulation](https://github.com/MobsLab/DeltaFeedBack/wiki/Triggering-an-external-stimulation)
 ### [Technical issues](https://github.com/MobsLab/DeltaFeedBack/wiki/Technical-issues)
-### [Arduino interface & Stimulations](https://github.com/MobsLab/DeltaFeedBack/wiki/Arduino-interface-&-Stimulations)
+### [Arduino interface & Sound stimulations](https://github.com/MobsLab/DeltaFeedBack/wiki/Arduino-interface-&-Stimulations)
