@@ -14,5 +14,5 @@
 ### [Softwares Architectures](https://github.com/MobsLab/DeltaFeedBack/wiki/Softwares-Architectures)
 ### [Signal processing](https://github.com/MobsLab/DeltaFeedBack/wiki/Signal-processing)
 ### [Arduino interface & Sound stimulations](https://github.com/MobsLab/DeltaFeedBack/wiki/Arduino-interface-&-Sound-stimulations)
-### [Triggering something else](https://github.com/MobsLab/DeltaFeedBack/wiki/Triggering-something-else)
+### [Triggering sleep stages](https://github.com/MobsLab/DeltaFeedBack/wiki/Triggering-sleep-stages)
 ### [Technical issues](https://github.com/MobsLab/DeltaFeedBack/wiki/Technical-issues)
