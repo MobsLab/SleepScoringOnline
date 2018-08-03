@@ -11,6 +11,8 @@ After receiving a trigger, the arduino sends a ttl back to the Intan board's dig
  
 ![](https://user-images.githubusercontent.com/41677251/43640313-c6d726cc-971f-11e8-8d14-f72f570da949.PNG)
 
+![](https://user-images.githubusercontent.com/41677251/43640396-17a0db84-9720-11e8-9179-f4652a1048c0.PNG)
+
 ## Code example
 
  ```void loop(){
