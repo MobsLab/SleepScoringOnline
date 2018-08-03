@@ -20,4 +20,6 @@ This comparison function computes different statistics to compare detections:
 * Cross_correlation between online and offline detections.
 
 It is also possible to mean these results with several nights. 
+
+![](https://user-images.githubusercontent.com/41677251/43653526-a10a86cc-9748-11e8-8453-c024a9905dba.png)
  
