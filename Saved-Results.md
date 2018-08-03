@@ -12,7 +12,7 @@ Saved timestamps are coming from Intan. Matlab function **_read_next.m_** refres
 
 `handles.datablock.read_next(handles.boardUI.Board)`
 
-They are recovered in **_newdata_time_** array in **_process_data_block_** function:*
+They are recovered in **_newdata_time_** array in **_process_data_block_** function:
 
 `newdata_time = datablock.Timestamps` 
 
