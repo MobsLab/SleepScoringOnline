@@ -32,7 +32,9 @@ After receiving a trigger, the arduino first decodes the number (mode and sount 
  
 ![](https://user-images.githubusercontent.com/41677251/43641808-4e12e996-9725-11e8-9d03-ab40f7542165.PNG)
 
-To control different sound modes generation with TDT amplifier, it is interfaced with **RPvdsEx** software. (https://www.tdt.com/files/manuals/RPvdsEx_Manual.pdf) 
+To control different sound modes generation with TDT amplifier, it is interfaced with **RPvdsEx** software. This software offers the possibility to control the TDT processor in order to manipulate TDT Digital Inputs in real time. (https://www.tdt.com/files/manuals/RPvdsEx_Manual.pdf)
+
+Here the program that we compiled on TDT amplifier for our use:
 
 ![](https://user-images.githubusercontent.com/41677251/43640396-17a0db84-9720-11e8-9179-f4652a1048c0.PNG)
 
